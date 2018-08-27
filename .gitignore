@@ -109,3 +109,10 @@ mcsplay/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
+# Mac OS strange folders #
+##########################
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
