@@ -3,7 +3,7 @@ from minhocsplay import app, pages
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return render_template('work_in_progress.html')
 
 @app.route('/<path:path>/')
 def page(path):
