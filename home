@@ -1,0 +1,86 @@
+<!doctype html>
+  <head>
+    <meta charset="utf-8">
+    <title>Minho's Homepage</title>
+    <link rel="stylesheet" href="/tiominho.github.io/static/css/style.css">
+    
+	<link rel="stylesheet" href="/tiominho.github.io/static/css/home.css">
+	<link rel="stylesheet" href="/tiominho.github.io/static/css/division_bar.css">
+
+
+  </head>
+  <body class="box">
+    <div class="container">
+
+      <div class="content" role="main">
+        
+
+<div id="home_content">
+
+	<div class="home_content_menu_wrap">
+		<div class="home_content_menu">
+			<a href="#"><div class="menu_entry">
+				<img src="/tiominho.github.io/static/res/imgs/icons/shield_02d.png">
+				<span class="menu_entry_text">Home</span>
+			</div></a>
+			<a href="#"><div class="menu_entry">
+				<img src="/tiominho.github.io/static/res/imgs/icons/potion_03a.png">
+				<span class="menu_entry_text">Projects</span>
+			</div></a>
+			<a href="#"><div class="menu_entry">
+				<img src="/tiominho.github.io/static/res/imgs/icons/scroll_01a.png">
+				<span class="menu_entry_text">Papers</span>
+			</div></a>
+			<a href="#"><div class="menu_entry">
+				<img src="/tiominho.github.io/static/res/imgs/icons/gem_01d.png">
+				<span class="menu_entry_text">Misc</span>
+			</div></a>
+			<a href="#"><div class="menu_entry">
+				<img src="/tiominho.github.io/static/res/imgs/icons/sword_02b.png">
+				<span class="menu_entry_text" id="gym_entry">Gym</span>
+			</div></a>
+		</div>
+	</div>
+
+	<div class="division_bar_wrap"><div class="division_bar"></div></div>
+
+	<!-- Picture and contact icons -->
+	<div class="home_content_info">
+		<div class="home_content_inside" id="picbox">
+			<div class="myinfo" id="info_profile">
+				<img src="/tiominho.github.io/static/res/imgs/noimage.png" id="myprofile">
+			</div>
+
+			<div class="myinfo" id="info_contact">
+				<div><a href="#"><img src="/tiominho.github.io/static/res/imgs/icons/email.png" class="info_icon"></a></div>
+				<div><a href="#"><img src="/tiominho.github.io/static/res/imgs/icons/telegram.png" class="info_icon"></a></div>
+				<div><a href="#"><img src="/tiominho.github.io/static/res/imgs/icons/github.png" class="info_icon"></a></div>
+				<div><a href="#"><img src="/tiominho.github.io/static/res/imgs/icons/github.png" class="info_icon"></a></div>
+			</div>
+		</div>
+
+		<!-- Description text -->
+		<div class="home_content_inside" id="textbox">
+			<h1>Hi! I'm <span class="main_highlight">Minho</span>.</h1>
+
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vehicula aliquam dignissim. Nulla odio ligula, dignissim non ex sit amet, elementum venenatis nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris blandit sit amet augue id tincidunt. Nulla dui nulla, rhoncus vel commodo non, dictum in nisl. Nam vel finibus nibh, quis laoreet justo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vitae elit libero. Donec molestie iaculis lobortis. Aliquam erat volutpat. 
+			</p>
+
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vehicula aliquam dignissim. Nulla odio ligula, dignissim non ex sit amet, elementum venenatis nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris blandit sit amet augue id tincidunt. Nulla dui nulla, rhoncus vel commodo non, dictum in nisl. Nam vel finibus nibh, quis laoreet justo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vitae elit libero. Donec molestie iaculis lobortis. Aliquam erat volutpat. 
+			</p>
+		</div>
+	</div>
+
+</div>
+
+
+
+      </div>
+
+    </div><!-- end container -->
+
+    <script src="/tiominho.github.io/static/js/script.js"></script>
+  </body>
+</html>

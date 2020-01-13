@@ -13,8 +13,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 17px;
-  font-weight: 300;
+  font-size: 16px;
+  font-weight: 400;
   color: white;
 }
 
@@ -31,7 +31,15 @@ nav ul li a {
   color: inherit;
 }
 
-/* Top Navigation Bar */
+.main_highlight {
+  color: #A6E22E;
+}
+
+.minor_highlight {
+   color: #66D9EF;
+}
+
+/* // Top Navigation Bar 
 .top-nav {
   background-color: #F8F8F2;
   width: 100%;
@@ -63,4 +71,4 @@ nav ul li a {
 .top-nav li a:hover {
     background-color: #272822;
     color: #F8F8F2;
-}
+}*/
