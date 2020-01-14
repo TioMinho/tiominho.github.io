@@ -38,7 +38,6 @@ nav ul li a {
 #home_content {
   margin: 0 auto;
   width: 67%;
-  padding-top: 2%;
 }
 
 .home_content_info {
@@ -46,34 +45,48 @@ nav ul li a {
   text-align: center;
 }
 
-.home_content_menu > div {
+.home_content_menu > a {
   flex: 1;
 }
 
 .home_content_menu_wrap {
   margin: 0 auto;
-  width: 75%;
+  width: 100%;
+  background-color: #F8F8F2;
 }
 
 .home_content_menu {
+  margin: 0 auto;
   display: flex;
-  width: 100%;
+  width: 50%;
+  height: 100%;
   text-align:center;
 }
 
-.home_content_menu a:link, .home_content_menu a:visited, .home_content_menu a:active {
+.unactive_page {
   text-decoration: none;
-  color: white;
+  color: #272822;
 }
 
-.home_content_menu a:hover {
-  text-decoration: none;
-  color: #66D9EF;
+.unactive_page:hover {
+  color: #FD971F;
+  background-color: #49483E;
+}
+
+.active_page {
+  color: #FD971F;
+  background-color: #272822;
+}
+
+#gym_link {
+  color: #272822;
+  background-color: #FD971FEE;
 }
 
 .menu_entry {
   display: inline-block;
-  font-weight: 400;
+  font-weight: 450;
+  padding: 10px 0;
 }
 
 .menu_entry img, .menu_entry_text {
@@ -91,36 +104,3 @@ nav ul li a {
   color: #FD971F;
 }
 
-/* // Top Navigation Bar 
-.top-nav {
-  background-color: #F8F8F2;
-  width: 100%;
-  overflow: hidden
-}
-
-.top-nav  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    float: right;
-}
-
-.top-nav h2 {
-  float: left;
-  padding-left: 25px;
-  color: #272822;
-}
-
-.top-nav li a {
-    display: block;
-    color: #272822;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.top-nav li a:hover {
-    background-color: #272822;
-    color: #F8F8F2;
-}*/

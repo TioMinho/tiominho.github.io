@@ -4,38 +4,39 @@
 		<title>Minho&#39;s Homepage | WIP</title>
 		<link rel="stylesheet" href="/tiominho.github.io/static/css/style.css">
 		<link rel="stylesheet" href="/tiominho.github.io/static/css/division_bar.css">
+		<link rel="stylesheet" href="/tiominho.github.io/static/css/gradient.css">
 		<script src="/tiominho.github.io/static/js/jquery-3.4.1.js"></script>
 		
 
 	</head>
 	<body class="box">
-		<div id="home_content">
-			<div class="home_content_menu_wrap">
-				<div class="home_content_menu">
-					<div class="menu_entry">
-						<img src="/tiominho.github.io/static/res/imgs/icons/shield_02d.png">
-						<a href="/"><span class="menu_entry_text">Home</span></a>
-					</div>
-					<div class="menu_entry">
-						<img src="/tiominho.github.io/static/res/imgs/icons/potion_03a.png">
-						<a href="/wip"><span class="menu_entry_text">Projects</span></a>
-					</div>
-					<div class="menu_entry">
-						<img src="/tiominho.github.io/static/res/imgs/icons/scroll_01a.png">
-						<a href="/papers"><span class="menu_entry_text">Papers</span></a>
-					</div>
-					<div class="menu_entry">
-						<img src="/tiominho.github.io/static/res/imgs/icons/gem_01d.png">
-						<a href="/wip"><span class="menu_entry_text">Misc</span>
-					</div>
-					<div class="menu_entry">
-						<img src="/tiominho.github.io/static/res/imgs/icons/sword_02b.png">
-						<a href="/wip"><span class="menu_entry_text" id="gym_entry">Gym</span></a>
-					</div>
-				</div>
+		<div class="home_content_menu_wrap">
+			<div class="home_content_menu">
+				<a href="/" class="unactive_page" id="home_link"><div class="menu_entry">
+					<img src="/tiominho.github.io/static/res/imgs/icons/shield_02d.png">
+					<span class="menu_entry_text">Home</span>
+				</div></a>
+				<a href="/wip" class="unactive_page" id="projects_link"><div class="menu_entry">
+					<img src="/tiominho.github.io/static/res/imgs/icons/potion_03a.png">
+					<span class="menu_entry_text">Projects</span>
+				</div></a>
+				<a href="/papers" class="unactive_page" id="papers_link"><div class="menu_entry">
+					<img src="/tiominho.github.io/static/res/imgs/icons/scroll_01a.png">
+					<span class="menu_entry_text">Papers</span>
+				</div></a>
+				<a href="/wip" class="unactive_page" id="misc_link"><div class="menu_entry">
+					<img src="/tiominho.github.io/static/res/imgs/icons/gem_01d.png">
+					<span class="menu_entry_text">Misc</span>
+				</div></a>
+				<a href="/wip" class="unactive_page" id="gym_link"><div class="menu_entry">
+					<img src="/tiominho.github.io/static/res/imgs/icons/sword_02b.png">
+					<span class="menu_entry_text">Gym</span>
+				</div></a>
 			</div>
+		</div>
 
-			<div class="division_bar_wrap"><div class="division_bar"></div></div>
+		<div id="home_content">
+			<!-- <div class="division_bar_wrap"><div class="division_bar"></div></div> -->
 
 			<h1 class="page_title">Work in Progress</h1>
 
@@ -46,6 +47,9 @@
 
 		</div>
 
-		<script src=/tiominho.github.io/static/js/script.js></script>
+		<script>
+			$( "#home_link" ).removeClass("unactive_page").addClass("active_page")
+		</script>
+		
 	</body>
 </html>
