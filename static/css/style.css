@@ -15,7 +15,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
-  color: white;
+  color: #F8F8F2;
 }
 
 nav ul, nav ul li {
@@ -31,12 +31,19 @@ nav ul li a {
   color: inherit;
 }
 
-.main_highlight {
+.highlight1 {
   color: #A6E22E;
+  font-weight: 300;
 }
 
-.minor_highlight {
-   color: #66D9EF;
+.highlight2 {
+  color: #66D9EF;
+  font-weight: 300;
+}
+
+.highlight3 {
+  color: #FD971F;
+  font-weight: 300;
 }
 
 /* // Top Navigation Bar 
