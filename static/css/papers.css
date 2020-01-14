@@ -1,0 +1,17 @@
+.section_title {
+	font-weight: 300;
+	color: #FD971F;
+}
+
+.bib_entry {
+	font-size: 12;
+	font-weight: 300;
+	color: #F8F8F1;
+}
+
+.small_icons {
+	max-width:25px;
+	max-height:25px;
+	width: auto;
+	height: auto;
+}
