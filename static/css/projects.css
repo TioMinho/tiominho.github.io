@@ -1,0 +1,14 @@
+.project_entry {
+	color: #75715E;
+}
+
+.project_title {
+	color: #FD971F;
+	font-size: 26px;
+}
+
+.project_description {
+	border-left: 2px solid #F92672;
+	padding-left: 20px;
+	text-align: justify;
+}

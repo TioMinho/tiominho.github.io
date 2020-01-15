@@ -18,19 +18,7 @@ body {
   color: #F8F8F2;
 }
 
-nav ul, nav ul li {
-  display: inline-block;
-  list-style: none;
-  margin: 10px 10px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  font-weight: 400;
-  text-transform: uppercase;
-  color: inherit;
-}
-
+.highlight1, .highlight2, .highlight3 { text-decoration: none; }
 .highlight1 { color: #A6E22E;}
 .highlight2 { color: #66D9EF; }
 .highlight3 { color: #FD971F; }
@@ -38,6 +26,22 @@ nav ul li a {
 #home_content {
   margin: 0 auto;
   width: 67%;
+}
+
+#home_content a {
+  text-decoration: none;
+  color: #66D9EF;
+}
+
+#home_content ul {
+  list-style: none;
+}
+
+#home_content li:before {    
+    font-family: 'FontAwesome';
+    content: '\f061';  
+    margin:0 5px 0 -15px;
+    color: #F92672;
 }
 
 .home_content_info {
