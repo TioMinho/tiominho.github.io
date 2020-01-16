@@ -18,10 +18,11 @@ body {
   color: #F8F8F2;
 }
 
-.highlight1, .highlight2, .highlight3 { text-decoration: none; }
+.highlight1, .highlight2, .highlight3, .highlight4 { text-decoration: none; }
 .highlight1 { color: #A6E22E;}
 .highlight2 { color: #66D9EF; }
 .highlight3 { color: #FD971F; }
+.highlight4 { color: #F92672; }
 
 #home_content {
   margin: 0 auto;
@@ -38,7 +39,10 @@ body {
 }
 
 #home_content li:before {    
-    font-family: 'FontAwesome';
+    font-family: "Font Awesome 5 Free"; 
+    font-style: normal;
+    font-weight: 900;
+    text-decoration: inherit;
     content: '\f061';  
     margin:0 5px 0 -15px;
     color: #F92672;
