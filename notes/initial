@@ -1,14 +1,17 @@
 <!doctype html>
 	<head>
 		<meta charset="utf-8">
-		<title>Minho&#39;s Homepage | Projects</title>
+		<title>Minho&#39;s Homepage | Gym</title>
 		<link rel="stylesheet" href="/tiominho.github.io/static/css/style.css">
 		<link rel="stylesheet" href="/tiominho.github.io/static/css/division_bar.css">
 		<link rel="stylesheet" href="/tiominho.github.io/static/css/gradient.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 		<script src="/tiominho.github.io/static/js/jquery-3.4.1.js"></script>
 		
-<link rel="stylesheet" href="/tiominho.github.io/static/css/projects.css">
+<link rel="stylesheet" href="/tiominho.github.io/static/css/notes_page.css">
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.0/es5/tex-mml-chtml.js"></script>
+<link rel="stylesheet" href="/tiominho.github.io/static/css/pygments.css">
 
 
 	</head>
@@ -41,31 +44,27 @@
 		<div id="home_content">
 			<!-- <div class="division_bar_wrap"><div class="division_bar"></div></div> -->
 
-			<h1 class="page_title">Projects</h1>
+			<h1 class="page_title">My Notes and Studies</h1>
 
 			
 
-
-<ul>
-	<li class="project_entry"><span class="project_title">Control4Reuse</span> | Member (WP2) | 2018 - Current</li>
-	
-	<p class="project_description">
-		Control4Reuse is aimed at research and development of technologies for managing water resources. The optimization of water treatment and reclamation systems has been integrated as a sustainable solution to improve the reuse of this valuable water resource. The focus is on the reuse of wastewater (WW) in specific agricultural and industrial sectors. From a technological point of view, the scope of the project is based on a system monitoring and control framework, with specific activities of monitoring and integrating sensor information/data, mathematical modelling of processes and designing advanced control strategies.
-
-		
-		</br></br>
-		Website: <a href="https://sites.google.com/view/control4reuse">Control4Reuse</a>
-		
+<div class="notes_content">
+	<h2 class="post_title">Hello world! :)</h2>
+	<p class="post_description">
+		<span class="post_date">2020/01/18</span> | <span class="post_tag">General</span>
 	</p>
-</ul>
-	
 
+	<span class="bar_separator"></span>
+
+	<h1>There's nothing to see here...</h1>
+<h2>Go back to the Notes page and perhaps you can find something interesting :)</h2>
+</div>
 
 
 		</div>
 
 		<script>
-			$( "#projects_link" ).removeClass("unactive_page").addClass("active_page")
+			$( "#notes_link" ).removeClass("unactive_page").addClass("active_page")
 		</script>
 		
 	</body>

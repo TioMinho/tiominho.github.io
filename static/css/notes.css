@@ -1,0 +1,22 @@
+.post_title {
+	font-size: 22px;
+}
+
+.post_tag {
+	color: #A6E22E;
+}
+
+.post_date {
+	color: #75715E;
+}
+
+.post_description {
+	margin-top: 0;
+	padding-left: 20px;
+	text-align: justify;
+	color: #FD971F;
+}
+
+#home_content ul {
+	border-left: 1px solid #75715E;
+}
