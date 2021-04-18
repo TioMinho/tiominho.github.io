@@ -1,4 +1,4 @@
-title;author;booktitle;pages;year;organization;notes;bibentry;pdf;presentation
-Predictive control of activated sludge plants to supply nitrogen for optimal crop growth;O. Neto, A. Haddon, F. Aichouche, J. Harmand, M. Mulas, F. Corona;In Proc: 11th IFAC Symposium on Advanced Control of Chemical Processes (ADCHEM);(Accepted);2021;IFAC;;BSM1CROP_MPC;X;X
-On the observability of activated sludge plants;O. Neto, M. Mulas, F. Corona;In Proc: 21st IFAC World Congress;(To appear);2020;IFAC;;BSM1_obsv;BSM1_obsv;BSM1_obsv_presentation
-On the controllability of activated sludge plants;O. Neto, M. Mulas, F. Corona;In Proc: 2020 European Control Conference (ECC);Saint Petersburg, Russia, pp. 581-586.;2020;IEEE;;BSM1_ctrb;BSM1_ctrb;BSM1_ctrb_presentation
+title;author;booktitle;pages;year;organization;notes;bibentry;pdf;presentation;doi
+Predictive control of activated sludge plants to supply nitrogen for optimal crop growth;O. Neto, A. Haddon, F. Aichouche, J. Harmand, M. Mulas, F. Corona;In Proc: 11th IFAC Symposium on Advanced Control of Chemical Processes (ADCHEM);(To Appear);2021;IFAC;;BSM1CROP_MPC;X;X;X
+On the observability of activated sludge plants;O. Neto, M. Mulas, F. Corona;In Proc: 21st IFAC World Congress;Berlin, Germany, pp. 16802-16807;2020;IFAC;;BSM1_obsv;BSM1_obsv;BSM1_obsv_presentation;http://dx.doi.org/10.1016/j.ifacol.2020.12.1151
+On the controllability of activated sludge plants;O. Neto, M. Mulas, F. Corona;In Proc: 2020 European Control Conference (ECC);Saint Petersburg, Russia, pp. 581-586.;2020;IEEE;;BSM1_ctrb;BSM1_ctrb;BSM1_ctrb_presentation;http://dx.doi.org/10.23919/ECC51009.2020.9143863
