@@ -16,3 +16,29 @@
 	height: auto;
 	vertical-align: bottom;
 }
+
+.content_box {
+	font-size: 11pt;
+	display: none;
+	margin-top: 6px;
+	width: 60%;
+	background-color: #F8F8F1;
+	color: #2a2a2a;
+	padding: 15px;
+	border-radius: 6px;
+}
+
+.bibtex_box {
+    white-space: pre-wrap;
+}
+
+.abstract_box {
+	word-wrap: break-word;
+    white-space: normal
+}
+
+.entry_separator {
+	width: 97.5%;
+	border: 1px solid #101010;
+	border-radius: 10px;
+}

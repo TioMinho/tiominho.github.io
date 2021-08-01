@@ -2,11 +2,15 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Minho&#39;s Homepage | Papers</title>
+
+		<link rel="icon" type="image/png" href="/static/res/imgs/icons/favicon.ico"/>
+
 		<link rel="stylesheet" type="text/css" href="/static/css/style.css">
 		<link rel="stylesheet" type="text/css" href="/static/css/division_bar.css">
 		<link rel="stylesheet" type="text/css" href="/static/css/gradient.css">
 		<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 		<script src="/static/js/jquery-3.4.1.js"></script>
+		<script src="/static/js/script.js"></script>
 		
 <link rel="stylesheet" type="text/css" href="/static/css/papers.css">
 
@@ -16,24 +20,24 @@
 		<div class="home_content_menu_wrap">
 			<div class="home_content_menu">
 				<a href="/" class="unactive_page" id="home_link"><div class="menu_entry">
-					<img src="/static/res/imgs/icons/shield_02d.png">
+					<img src="/static/res/imgs/icons/home.png">
 					<span class="menu_entry_text">Home</span>
 				</div></a>
 				<a href="/projects" class="unactive_page" id="projects_link"><div class="menu_entry">
-					<img src="/static/res/imgs/icons/potion_03a.png">
+					<img src="/static/res/imgs/icons/projects.png">
 					<span class="menu_entry_text">Projects</span>
 				</div></a>
 				<a href="/papers" class="unactive_page" id="papers_link"><div class="menu_entry">
-					<img src="/static/res/imgs/icons/scroll_01a.png">
+					<img src="/static/res/imgs/icons/papers.png">
 					<span class="menu_entry_text">Papers</span>
 				</div></a>
 				<a href="/wip" class="unactive_page" id="misc_link"><div class="menu_entry">
-					<img src="/static/res/imgs/icons/gem_01d.png">
+					<img src="/static/res/imgs/icons/stuff.png">
 					<span class="menu_entry_text">Stuff</span>
 				</div></a>
-				<a href="/notes" class="unactive_page" id="notes_link"><div class="menu_entry">
-					<img src="/static/res/imgs/icons/sword_02b.png">
-					<span class="menu_entry_text">Notes</span>
+				<a href="/wip" class="unactive_page" id="notes_link"><div class="menu_entry">
+					<img src="/static/res/imgs/icons/blog.png">
+					<span class="menu_entry_text">Blog</span>
 				</div></a>
 			</div>
 		</div>
@@ -46,6 +50,31 @@
 			
 
 
+	<h2 class="section_title">Journal Articles</h2>
+
+	<ul class="bib_section">
+		
+		<li class="bib_entry">
+			
+			 <b>About the dynamics of a common class of activated sludge plants</b>  <br>
+			O. Neto, M. Mulas, F. Corona <br>
+			<i>Preprint (Submitted)</i>, v. _, no. _, pp. 1-24, 2021.  <br>
+			<a href="javascript:void(0)" type="button" onclick="show_content('abstract', 'box_NMC_BSM1', 'In this work, the stability, controllability and observability properties of a class of activated sludge plants are analysed. Specifically, the five biological reactors and the secondary settler in the Benchmark Simulation Model no. 1 (BSM1) are studied. For the task, we represented the plant as a dynamical system consisting of 145 state variables, 13 controls, 14 disturbances and 15 outputs and as a complex networks to study its full-state controllability and observability properties from a structural and a classical point of view. By analysing the topology of the network, we show how this class of systems is controllable but not observable in a structural sense, and thus how it is controllable but not observable in a classical sense for almost all possible realisations. We also show how a linearisation commonly used in the literature is neither full-state controllable nor full-state observable in the classical sense. The control and observation efforts are quantified in terms of energy- and centrality-based based metrics.')"><img class="small_icons" title="Abstract" alt="Abstract" src="/static/res/imgs/icons/abstract.png"></a>
+			<a href="javascript:void(0)" type="button" onclick="show_content('bibtex', 'box_NMC_BSM1', '@inproceedings{NMC_BSM1_2021, \n	 title = {About the dynamics of a common class of activated sludge plants}, \n	 journal = {Preprint (Submitted)}, \n	 author = {O. B. L. {Neto} and M. {Mulas} and F. {Corona}}, \n	 year = {2021}, \n	 volume = {},\n	 number = {},\n	 pages = {pp. 1-24},\n	 abstract={},\n	 keywords={},\n	 doi={},\n	 ISSN={}, \n}')"><img class="small_icons" title="Cite (BibTeX)" alt="Cite (BibTeX)" src="/static/res/imgs/icons/bibtex.png"></a>
+			 
+			
+			<div class="content_box" id="box_NMC_BSM1"><span class="content_box_text" id="box_NMC_BSM1_text"></span></div>
+			<hr class="entry_separator"> 
+			
+
+			
+
+			
+
+		</li>
+		
+	</ul>
+
 	<h2 class="section_title">Conference Articles</h2>
 
 	<ul class="bib_section">
@@ -54,54 +83,57 @@
 			
 
 			
-
+			 <b>Predictive control of activated sludge plants to supply nitrogen for optimal crop growth</b>  <br>
+			O. Neto, A. Haddon, F. Aichouche, J. Harmand, M. Mulas, F. Corona <br>
+			<i>In Proc: 11th IFAC Symposium on Advanced Control of Chemical Processes (ADCHEM)</i>, (To Appear), IFAC, 2021.  <br>
+			<a href="javascript:void(0)" type="button" onclick="show_content('abstract', 'box_BSM1_ADCHEM', 'We report the preliminary results of a feasibility study in which we investigate the possibility to operate a common class of activated sludge plants to produce effluent wastewater of varying quality for crop irrigation. Firstly, a nitrogen reference trajectory is computed as solution to a higher-level optimal control problem that aims at maximizing plant biomass in a crop growth system. We then study how to control the treatment plant with a zero-offset predictive control strategy designed to operate the treatment process to supply nitrogen according to this optimal planning for crop growth. We show how an ad hoc tuning of the predictive controller allows to define alternative policies that favour the manipulation of different forms of nitrogen in the treatment plant. We show that the designed controllers are only partially capable to operate the treatment plant to meet the nitrogen demand, when subjected to typical municipal wastewater influent conditions. However, zero-offset can be achieved under constant influent conditions. We analyse the performance of the controller in terms of tracking accuracy and operational energy.')"><img class="small_icons" title="Abstract" alt="Abstract" src="/static/res/imgs/icons/abstract.png"></a>
+			<a href="javascript:void(0)" type="button" onclick="show_content('bibtex', 'box_BSM1_ADCHEM', '@inproceedings{Neto2021, \n	 author = {O. B. L. {Neto} and Antoine {Haddon} and Farouk {Aichouche} and Jérôme {Harmand} and M. {Mulas} and F. {Corona}}, \n	 booktitle = {11th IFAC Symposium on Advanced Control of Chemical Processes}, \n	 title = {Predictive control of activated sludge plants to supply nitrogen for optimal crop growth}, \n	 year = {2021}, \n	 volume = {},\n	 number = {},\n	 pages = {(Accepted)},\n	 abstract={},\n	 keywords={},\n	 doi={},\n	 ISSN={},\n	 month={},\n}')"><img class="small_icons" title="Cite (BibTeX)" alt="Cite (BibTeX)" src="/static/res/imgs/icons/bibtex.png"></a>
+			 <a href="/static/papers/BSM1_ADCHEM21.pdf"><img class="small_icons" title="PDF" alt="PDF" src="/static/res/imgs/icons/pdf.png"></a>  
+			
+			<div class="content_box" id="box_BSM1_ADCHEM"><span class="content_box_text" id="box_BSM1_ADCHEM_text"></span></div>
+			<hr class="entry_separator"> 
 			
 
 			
-			 <a href="/static/papers/BSM1CROP_MPC.bib"><img class="small_icons" alt="Cite" src="/static/res/imgs/icons/cite.png"></a> 
-			
-			
-			<b class="highlight4">|</b>
-			O. Neto, A. Haddon, F. Aichouche, J. Harmand, M. Mulas, F. Corona, 
-			 <i>"Predictive control of activated sludge plants to supply nitrogen for optimal crop growth"</i> ,
-			<b>In Proc: 11th IFAC Symposium on Advanced Control of Chemical Processes (ADCHEM)</b>, (To Appear), IFAC, 2021. <b></b>
-			
+
 		</li>
 		
 		<li class="bib_entry">
 			
 
 			
-
+			 <a href="http://doi.org/10.1016/j.ifacol.2020.12.1151"><b>On the observability of activated sludge plants</b></a>  <br>
+			O. Neto, M. Mulas, F. Corona <br>
+			<i>In Proc: 21st International Federation of Automatic Control (IFAC) World Congress</i>, pp. 16802-16807, IFAC, 2020.  <br>
+			<a href="javascript:void(0)" type="button" onclick="show_content('abstract', 'box_BSM1_IFAC', 'In this work, the full-state observability properties of a class of biological wastewater treatment plants are analysed. Specifically, the five biological reactors and the secondary settler in the Benchmark Simulation Model no. 1 are studied. For the task, we represented the activated sludge plant as a dynamical system consisting of 145 states, 8 controls, 14 disturbances and 12 outputs and as a complex network to study its observability properties from a structural and a classical point of view. By analysing the topology of the network, we show how the system is not observable in the structural sense and thus how it is also not observable in the classical sense for all possible realisations of its parameters. As this is also true for a linearisation commonly used in the literature, we analysed a reduced-order system that, based on such linearisation, does not consider the state variables corresponding to dissolved oxygen and alkalinity in the upper-layers of the settler. We show how this system configuration is only observable in a structural sense.')"><img class="small_icons" title="Abstract" alt="Abstract" src="/static/res/imgs/icons/abstract.png"></a>
+			<a href="javascript:void(0)" type="button" onclick="show_content('bibtex', 'box_BSM1_IFAC', '@inproceedings{Neto2020b,\n	 author={O. B. L. {Neto} and M. {Mulas} and F. {Corona}},\n	 booktitle={21st IFAC World Congress}, \n	 title={On the observability of activated sludge plants}, \n	 year={2020},\n	 volume={},\n	 number={},\n	 pages={(To Appear)},\n	 doi={},\n	 ISSN={},\n	 month={},\n}\n')"><img class="small_icons" title="Cite (BibTeX)" alt="Cite (BibTeX)" src="/static/res/imgs/icons/bibtex.png"></a>
+			 <a href="/static/papers/BSM1_obsv.pdf"><img class="small_icons" title="PDF" alt="PDF" src="/static/res/imgs/icons/pdf.png"></a>  
+			 <a href="/static/papers/BSM1_obsv_presentation.mp4"><img class="small_icons" title="Presentation" alt="Presentation Video" src="/static/res/imgs/icons/mp4.png"></a> 
+			<div class="content_box" id="box_BSM1_IFAC"><span class="content_box_text" id="box_BSM1_IFAC_text"></span></div>
+			<hr class="entry_separator"> 
 			
 
 			
-			 <a href="/static/papers/BSM1_obsv.bib"><img class="small_icons" alt="Cite" src="/static/res/imgs/icons/cite.png"></a> 
-			 <a href="/static/papers/BSM1_obsv.pdf"><img class="small_icons" alt="PDF" src="/static/res/imgs/icons/pdf.png"></a> 
-			 <a href="/static/papers/BSM1_obsv_presentation.mp4"><img class="small_icons" alt="Presentation Video" src="/static/res/imgs/icons/mp4.png"></a> 
-			<b class="highlight4">|</b>
-			O. Neto, M. Mulas, F. Corona, 
-			 <a href="http://dx.doi.org/10.1016/j.ifacol.2020.12.1151"><i>"On the observability of activated sludge plants"</i></a> ,
-			<b>In Proc: 21st IFAC World Congress</b>, Berlin, Germany, pp. 16802-16807, IFAC, 2020. <b></b>
-			
+
 		</li>
 		
 		<li class="bib_entry">
 			
 
 			
-
+			 <a href="http://doi.org/10.23919/ECC51009.2020.9143863"><b>On the controllability of activated sludge plants</b></a>  <br>
+			O. Neto, M. Mulas, F. Corona <br>
+			<i>In Proc: 2020 European Control Conference (ECC)</i>, pp. 581-586., IEEE, 2020.  <br>
+			<a href="javascript:void(0)" type="button" onclick="show_content('abstract', 'box_BSM1_ECC', 'In this work, the full-state controllability properties of a biological wastewater treatment plant are analysed. Specifically, the five biological reactors in the Benchmark Simulation Model no. 1 are studied. For the task, we represented the activated sludge plant as a dynamical system consisting of 65 states, 7 controls and 27 disturbances as a complex network and we studied its controllability properties from a classical and a structural point of view. By analysing the topology of the network, we show how the system is controllable in the structural sense and thus how it is controllable in the classical sense for almost all realisations of its parameters. Interestingly, we also found that the linearisation around a fixed point commonly used in the literature leads to a realisation of the system that is not full-state controllable in the classical sense. We show how this realisation is controllable if the state variables associated with inert matter are not considered. We quantify the compound and individual control efforts of this reduced-order system in terms of energy-based controllability metrics.')"><img class="small_icons" title="Abstract" alt="Abstract" src="/static/res/imgs/icons/abstract.png"></a>
+			<a href="javascript:void(0)" type="button" onclick="show_content('bibtex', 'box_BSM1_ECC', '@inproceedings{Neto2020a,\n	 author={O. B. L. {Neto} and M. {Mulas} and F. {Corona}},\n	 booktitle={2020 European Control Conference (ECC)}, \n	 title={On the controllability of activated sludge plants}, \n	 year={2020},\n	 volume={},\n	 number={},\n	 pages={581-586},\n	 doi={10.23919/ECC51009.2020.9143863},\n	 ISSN={},\n	 month={May},\n}\n')"><img class="small_icons" title="Cite (BibTeX)" alt="Cite (BibTeX)" src="/static/res/imgs/icons/bibtex.png"></a>
+			 <a href="/static/papers/BSM1_ctrb.pdf"><img class="small_icons" title="PDF" alt="PDF" src="/static/res/imgs/icons/pdf.png"></a>  
+			 <a href="/static/papers/BSM1_ctrb_presentation.mp4"><img class="small_icons" title="Presentation" alt="Presentation Video" src="/static/res/imgs/icons/mp4.png"></a> 
+			<div class="content_box" id="box_BSM1_ECC"><span class="content_box_text" id="box_BSM1_ECC_text"></span></div>
+			<hr class="entry_separator"> 
 			
 
 			
-			 <a href="/static/papers/BSM1_ctrb.bib"><img class="small_icons" alt="Cite" src="/static/res/imgs/icons/cite.png"></a> 
-			 <a href="/static/papers/BSM1_ctrb.pdf"><img class="small_icons" alt="PDF" src="/static/res/imgs/icons/pdf.png"></a> 
-			 <a href="/static/papers/BSM1_ctrb_presentation.mp4"><img class="small_icons" alt="Presentation Video" src="/static/res/imgs/icons/mp4.png"></a> 
-			<b class="highlight4">|</b>
-			O. Neto, M. Mulas, F. Corona, 
-			 <a href="http://dx.doi.org/10.23919/ECC51009.2020.9143863"><i>"On the controllability of activated sludge plants"</i></a> ,
-			<b>In Proc: 2020 European Control Conference (ECC)</b>, Saint Petersburg, Russia, pp. 581-586., IEEE, 2020. <b></b>
-			
+
 		</li>
 		
 	</ul>
@@ -112,19 +144,38 @@
 		
 		<li class="bib_entry">
 			
-			 <a href="/static/papers/bachelor_ufc.bib"><img class="small_icons" alt="Cite" src="/static/res/imgs/icons/cite.png"></a> 
-			 <a href="/static/papers/bachelor_ufc.pdf"><img class="small_icons" alt="PDF" src="/static/res/imgs/icons/pdf.png"></a> 
-			<b class="highlight4">|</b>
-			Neto, O.,
-			 <i>"Optimal Control: An application to a non-isothermal continuous reactor"</i> ,
-			<b>B.Eng Thesis</b>, Department of Teleinformatics Engineering, Federal University of Ceará, 2019. <b></b>
+
+			
+
+			
+			 <b>Optimal control and estimation of activated sludge plants</b>  <br>
+			<!-- O. B. L. Neto <br> -->
+			M.Sc Thesis, <i>Postgraduate Programme in Teleinformatics Engineering, Federal University of Ceará</i>, 2021. <b></b> <br>
+			<a href="javascript:void(0)" type="button" onclick="show_content('abstract', 'box_Neto_BMsc', 'Wastewater treatment is facing unprecedented challenges due to stricter effluent requirements, costs minimisation, sustainable reuse of water, nutrients, and other resources, as well as increasing expectations in the public to attain high service standards. Due to their wide diffusion, activated sludge processes play a key role in the biological treatment of wastewater and their efficient operation has a large technological and societal impact. The discipline of control theory offers the mathematical framework for steering wastewater treatment systems toward a desired state. Model predictive control (MPC) and moving horizon estimation (MHE) have been the chosen technologies for many industrial applications, including treatment plants. In this work, the dynamical properties and optimal operation of activated sludge plants are investigated. For the first task, the dynamical system consisting of 145 state variables, 13 controls, 14 disturbances, and 15 outputs, is mapped onto complex networks in which full-state controllability and observability properties are studied, from both a structural and a classical point of view. For the second task, optimal control and estimation strategies are designed for operating an activated sludge plant for both wastewater treatment and reuse operations. In wastewater reuse, a zero-offset predictive controller is designed to operate the plant when it is required to produce water of tailored quality to be used for agricultural crop fertigation. The optimal control and estimation problems are solved through the direct transcription method consisting of converting the problems into nonlinear programs, then solving them numerically. According to our results, activated sludge plants are only controllable in a structural sense, being uncontrollable in the conventional sense and unobservable both in the structural and conventional sense. Being stable under the conventional operation, these processes are still stabilizable and detectable, despite their control and observation being qualified as high-demanding tasks. We present and discuss the simulation results for a predictive controller that is capable to improve the performance of the plant for wastewater treatment under different influent regimes. Then, we show and discuss the results for a zero-offset controller that is capable to track a reference trajectory under constant influent conditions, albeit being only partially capable to track these set-points under dynamic influent. Finally, results are presented for the output model predictive controllers based on partial, noisy, measurements of the plant’s internal state. ')"><img class="small_icons" title="Abstract" alt="Abstract" src="/static/res/imgs/icons/abstract.png"></a>
+			<a href="javascript:void(0)" type="button" onclick="show_content('bibtex', 'box_Neto_BMsc', '@phdthesis{Neto2019Master,\n	 author = {Otacílio Bezerra Leite {Neto}}, \n	 title = {Optimal Control: An application to a non-isothermal continuous reactor},\n	 school = {Universidade Federal do Ceará},\n	 year = {2021},\n	 type = {M.Sc. Thesis}\n}\n')"><img class="small_icons" title="Cite (BibTeX)" alt="Cite (BibTeX)" src="/static/res/imgs/icons/bibtex.png"></a>
+			 
+			<div class="content_box" id="box_Neto_BMsc"><span id="box_Neto_BMsc_text"></span></div>
+			<hr class="entry_separator"> 
+			
+
+		</li>
+		
+		<li class="bib_entry">
 			
 
 			
 
 			
-
+			 <b>Optimal Control: An application to a non-isothermal continuous reactor</b>  <br>
+			<!-- O. B. L. Neto <br> -->
+			B.Eng Thesis, <i>Department of Teleinformatics Engineering, Federal University of Ceará</i>, 2019. <b></b> <br>
+			<a href="javascript:void(0)" type="button" onclick="show_content('abstract', 'box_Neto_BEng', 'The discipline of Control Systems Engineering has become ubiquitous in most modern technological applications. Recently, given the advances in fields such as Reinforcement Learning, attention has been drawn to the need for solving control problems from highly complex systems in conditions loaded with uncertainty. Given this motivation, the field of Optimal and Robust Control presents itself as a feasible solution to these problems. These techniques accounts for the design of automatic controllers that manipulates a system in order to optimize an objective function, considering also the possibility for uncertainty in any aspect of this process. In this work, the main results in optimal control are revisited in detail, focusing in the classical Linear Quadratic (LQ) controllers which assumes a linear model of a system and a quadratic performance index to be minimized. The optimization discussed in this work is solved through a Dynamic Programming approach. In addition to this, optimal state estimators, namely Kalman Filter estimators, are formulated and integrated to the optimal controllers in order to deal with the uncertainty regarding the real state of a system. As building blocks for these concepts, the general results for dynamical systems modeling and control is also presented, although only the most important and recurrent theorems are described in detail. The controllers are evaluated in the light of a specific class of chemical processes, the continuous stirred tank reactors (CSTR). A specific model of a system within this class, which is highly nonlinear and loaded with uncertainty, is used in simulation as a benchmark to demonstrate the optimal and robust approach.')"><img class="small_icons" title="Abstract" alt="Abstract" src="/static/res/imgs/icons/abstract.png"></a>
+			<a href="javascript:void(0)" type="button" onclick="show_content('bibtex', 'box_Neto_BEng', '@phdthesis{Neto2019Bachelor,\n	 author = {Otacílio Bezerra Leite {Neto}}, \n	 title = {Optimal Control: An application to a non-isothermal continuous reactor},\n	 school = {Universidade Federal do Ceará},\n	 year = {2019},\n	 type = {B.Eng. Thesis}\n}\n')"><img class="small_icons" title="Cite (BibTeX)" alt="Cite (BibTeX)" src="/static/res/imgs/icons/bibtex.png"></a>
+			 <a href="/static/papers/bachelor_ufc.pdf"><img class="small_icons" title="PDF" alt="PDF" src="/static/res/imgs/icons/pdf.png"></a>  
+			<div class="content_box" id="box_Neto_BEng"><span id="box_Neto_BEng_text"></span></div>
+			<hr class="entry_separator"> 
 			
+
 		</li>
 		
 	</ul>
