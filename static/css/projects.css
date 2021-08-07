@@ -1,4 +1,30 @@
-.project_entry {
+.project_entry_wrapper {
+	display: flex;
+	width: 100%;
+}
+
+.project_photo {
+	flex: 1;
+	text-align: center;
+	border: 2px solid #2A2A2A;
+	width: 30%;
+	height: auto;
+	background-color: #FFF;
+}
+
+.project_photo_image {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	max-width: 100%;
+}
+
+.project_data {
+	margin-left: 35px;
+	width: 70%;
+}
+
+.project_details {
 	color: #75715E;
 }
 
@@ -11,4 +37,11 @@
 	border-left: 2px solid #F92672;
 	padding-left: 20px;
 	text-align: justify;
+}
+
+.entry_separator {
+	margin: 30px 30px;
+	width: 97.5%;
+	border: 1px solid #101010;
+	border-radius: 10px;
 }
