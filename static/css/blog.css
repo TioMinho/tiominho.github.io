@@ -3,7 +3,10 @@
 }
 
 .post_tag {
-	color: #A6E22E;
+	border-radius: 4px;
+	padding: 0px 4px 0px 4px;
+	background-color: #FD971F;
+	color: white;
 }
 
 .post_date {

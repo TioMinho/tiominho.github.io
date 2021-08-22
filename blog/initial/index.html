@@ -1,7 +1,7 @@
 <!doctype html>
 	<head>
 		<meta charset="utf-8">
-		<title>Minho&#39;s Homepage | Notes</title>
+		<title>Minho&#39;s Homepage | Blog</title>
 
 		<link rel="icon" type="image/png" href="/static/res/imgs/icons/favicon.ico"/>
 
@@ -12,7 +12,10 @@
 		<script src="/static/js/jquery-3.4.1.js"></script>
 		<script src="/static/js/script.js"></script>
 		
-<link rel="stylesheet" type="text/css" href="/static/css/notes.css">
+<link rel="stylesheet" type="text/css" href="/static/css/blog_post.css">
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.0/es5/tex-mml-chtml.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/css/pygments.css">
 
 
 	</head>
@@ -45,27 +48,27 @@
 		<div id="home_content">
 			<!-- <div class="division_bar_wrap"><div class="division_bar"></div></div> -->
 
-			<h1 class="page_title">My Notes and Studies</h1>
+			<h1 class="page_title"></h1>
 
 			
 
-<ul>
-	
-	<li class="post_entry"><a href="/notes/initial/" class="post_title">Hello world! :)</a></li>
-	
+<div class="notes_content">
 	<p class="post_description">
 		<span class="post_date">2020/01/18</span> | <span class="post_tag">General</span>
 	</p>
-	
-</ul>
-	
+	<h2 class="post_title">Hello world! :)</h2>
 
+	<span class="bar_separator"></span>
+
+	<h1>There's nothing to see here...</h1>
+<h2>Go back to the Notes page and perhaps you can find something interesting :)</h2>
+</div>
 
 
 		</div>
 
 		<script>
-			$( "#notes_link" ).removeClass("unactive_page").addClass("active_page")
+			$( "#blog_link" ).removeClass("unactive_page").addClass("active_page")
 		</script>
 		
 	</body>

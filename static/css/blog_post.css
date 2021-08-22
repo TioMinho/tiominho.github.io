@@ -9,23 +9,27 @@
 .codehilite {
 	margin: 0 auto;
 	border-left: 3px solid #75715E;
-	width: 75%;
+	width: 80%;
 	padding: 1px 10px;
 }
 
 .post_title {
 	color: #46B9CF;
 	margin-bottom: 0;
+	margin-top: 5px;
 }
 
 .post_tag {
-	color: #A6E22E;
+	border-radius: 4px;
+	padding: 0px 4px 0px 4px;
+	background-color: #FD971F;
+	color: white;
 }
 
 .bar_separator {
 	margin: 5mm auto;
 	display: block;
-	width: 80%;
+	width: 90%;
 	height: 1px;
 	background-color: #75715E;
 }
@@ -35,8 +39,8 @@
 }
 
 .post_description {
-	margin-top: 0;
-	padding-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 0;
 	text-align: justify;
 	color: #FD971F;
 	font-size: 14px;
