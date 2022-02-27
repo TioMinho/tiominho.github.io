@@ -6,9 +6,14 @@
 }
 
 .box {
-    margin: 0px 0px 0px 0px;
-    width: 100%;
-    background-color: #070802;
+  margin: 0px 0px 0px 0px;
+  width: 100%;
+  /* background-color: #070802; */
+  background:
+    radial-gradient(black 15%, transparent 20%) 0 0,
+    radial-gradient(rgba(120,120,120,.1) 15%, transparent 20%) 1px 1px;
+  background-color:#070802;
+  background-size: 7px 7px;
 }
 
 body {
