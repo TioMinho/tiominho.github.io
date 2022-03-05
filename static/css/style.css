@@ -63,18 +63,25 @@ body {
 }
 
 .home_content_menu_wrap {
-  margin: 0 auto;
-  width: 100%;
   background-color: #F8F8F2;
+  display: flex;
+  margin: 0 auto;
+  border-bottom: 1px solid #FD971F;
+  width: 100%;
 }
 
 .home_content_menu {
-  margin: 0 auto;
   display: flex;
-  width: 50%;
+  margin: 0 auto;
+  max-width: 650px;
+  width: 35%;
   height: 100%;
-  text-align:center;
+  text-align: center;
 }
+
+#navbar_left { float: left; margin-left: 0;}
+#navbar_title { margin: auto 0; padding-right: 50px;}
+#navbar_title > a { float:right; color:#FD971F; font-weight: 300; text-decoration: none;}
 
 .unactive_page {
   text-decoration: none;
@@ -94,7 +101,7 @@ body {
 .menu_entry {
   display: inline-block;
   font-weight: 450;
-  padding: 10px 0;
+  padding: 8px 0;
 }
 
 .menu_entry img, .menu_entry_text {
