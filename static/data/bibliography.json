@@ -35,6 +35,21 @@
     ],
     "Conference Articles": [
         {
+            "id": "BSM1_DYCOPS",
+            "title": "Online optimal estimation and control for a common class of activated sludge plants",
+            "author": "O. Neto, M. Mulas, F. Corona",
+            "booktitle": "In Proc: 13th IFAC Symposium on Dynamics and Control of Process Systems, including Biosystems (DYCOPS)",
+            "pages": "pp. _",
+            "year": 2022,
+            "organization": "IFAC",
+            "notes": "Accepted",
+            "bibtex": "@article{NMC_BSM1Control_DYCOPS, \\n\t title = {Online optimal estimation and control for a common class of activated sludge plants}, \\n\t journal = {In Proc: 13th IFAC Symposium on Dynamics and Control of Process Systems, including Biosystems (DYCOPS)}, \\n\t author = {Otacílio B. L. Neto and Michela Mulas and Francesco Corona}, \\n\t year = {2022}, \\n\t volume = {}, \\n\t number = {}, \\n\t pages = {}, \\n\t note = {Accepted}, \\n\t issn = {}, \\n\t doi = {}, \\n\t url = {}\\n }",
+            "pdf": "BSM1_DYCOPS22.pdf",
+            "presentation": "",
+            "doi": "",
+            "abstract": "In this work, we design an output predictive controller that operates a common class of activated sludge plants. The controller solves a state-feedback model predictive control problem in which the process state and disturbances are determined by a moving horizon estimator. We illustrate the behaviour of the controller when operating the plant to produce an effluent water of varying nitrogen content. The close tracking of the effluent profiles is enforced by stabilizing the system around optimal steady-state points that satisfy the output reference trajectories. Considering the generality of the formulation, the predictive controller can be configured to operate this class of activated sludge plants to achieve alternative objectives."
+        },
+        {
             "id": "BSM1_ADCHEM",
             "title": "Predictive control of activated sludge plants to supply nitrogen for optimal crop growth",
             "author": "O. Neto, A. Haddon, F. Aichouche, J. Harmand, M. Mulas, F. Corona",
