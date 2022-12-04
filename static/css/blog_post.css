@@ -7,6 +7,7 @@
 
 /* General aspects of the page */
 #home_content {
+	visibility: visible !important;
 	margin: 0 auto;
 	width: 75%;
 	max-width: 1000px;
