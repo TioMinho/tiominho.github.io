@@ -1,6 +1,18 @@
+/*--------------------------------------------------------------------
+||  ./project.css
+||	Copyright (c) 2022- by Otacilio 'Minho' Neto, <otacilio.neto@aalto.fi>
+||
+||	Styling for the project ('/project/') page.
+\\___________________________________________________________________*/
+
+.project_full_wrapper {
+	margin: 0 auto;
+	padding-top: 35px;
+	width: 100%
+}
+
 .project_entry_wrapper {
 	display: flex;
-	width: 100%;
 }
 
 .project_photo {

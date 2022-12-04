@@ -1,3 +1,18 @@
+<!--------------------------------------------------------------------
+||  ./projects.html
+||  Copyright (c) 2022- by Otacilio 'Minho' Neto, <otacilio.neto@aalto.fi>
+||  
+||  My academic projects page.
+||	Displays current and past project information.
+\\___________________________________________________________________-->  
+<!--------------------------------------------------------------------
+||	./base.html
+||	Copyright (c) 2022- by Otacilio 'Minho' Neto, <otacilio.neto@aalto.fi>
+||	
+||	Defines the base of all pages in the website: 
+||	Nav-bar, color themes, main scripts, etc.
+\\___________________________________________________________________-->  
+
 <!doctype html>
 	<head>
 		<meta charset="utf-8">
@@ -5,36 +20,34 @@
 
 		<link rel="icon" type="image/png" href="/static/res/imgs/icons/favicon.ico"/>
 
-		<link rel="stylesheet" type="text/css" href="/static/css/style.css">
-		<link rel="stylesheet" type="text/css" href="/static/css/gradient.css">
+		<link rel="stylesheet" type="text/css" href="/static/css/base.css">
+		<link rel="stylesheet" type="text/css" href="/static/css/projects.css">
 		<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-		<script src="/static/js/jquery-3.4.1.js"></script>
-		<script src="/static/js/script.js"></script>
+		<script src="/static/js/_jquery-3.4.1.js"></script>
+		<script src="/static/js/projects.js"></script>
 		
-<link rel="stylesheet" type="text/css" href="/static/css/projects.css">
-
-
 	</head>
+	
 	<body class="box">
 		<div class="home_content_menu_wrap">
 			<div class="home_content_menu" id="navbar_left">
-				<a href="/" class="unactive_page" id="home_link"><div class="menu_entry">
+				<a href="/" class="inactive_page" id="index_link"><div class="menu_entry">
 					<img src="/static/res/imgs/icons/home.png">
 					<span class="menu_entry_text">Home</span>
 				</div></a>
-				<a href="/projects" class="unactive_page" id="projects_link"><div class="menu_entry">
+				<a href="/projects" class="inactive_page" id="projects_link"><div class="menu_entry">
 					<img src="/static/res/imgs/icons/projects.png">
 					<span class="menu_entry_text">Projects</span>
 				</div></a>
-				<a href="/papers" class="unactive_page" id="papers_link"><div class="menu_entry">
+				<a href="/papers" class="inactive_page" id="papers_link"><div class="menu_entry">
 					<img src="/static/res/imgs/icons/papers.png">
 					<span class="menu_entry_text">Papers</span>
 				</div></a>
-				<a href="/wip" class="unactive_page" id="misc_link"><div class="menu_entry">
+				<a href="/wip" class="inactive_page" id="misc_link"><div class="menu_entry">
 					<img src="/static/res/imgs/icons/stuff.png">
 					<span class="menu_entry_text">Stuff</span>
 				</div></a>
-				<a href="/wip" class="unactive_page" id="notes_link"><div class="menu_entry">
+				<a href="/wip" class="inactive_page" id="blog_link"><div class="menu_entry">
 					<img src="/static/res/imgs/icons/blog.png">
 					<span class="menu_entry_text">Blog</span>
 				</div></a>
@@ -45,37 +58,37 @@
 		</div>
 
 		<div id="home_content">
-			<h1 class="page_title">Projects</h1>
-
 			
-
+<!-- ______________________________________________________________ -->
 <div class="project_full_wrapper">
+	
+	<!-- Creates a wrapper for the specific entry -->
+	<div class="project_entry_wrapper">
+		<!-- Project picture -->
+		<div class="project_photo">
+			<a href="https://sites.google.com/view/control4reuse"><img class="project_photo_image" src="/static/res/imgs/projects/01.png"></a>
+		</div>
 
-<div class="project_entry_wrapper">
-	<div class="project_photo">
-		<img class="project_photo_image" src="/static/res/imgs/projects/01.png">
-	</div>
-	<div class="project_data">
-		<ul style="margin:0;padding:0;"><li class="project_details">
-			 
-				<a href="https://sites.google.com/view/control4reuse"><span class="project_title">Control4Reuse</span></a> | Member (WP2) | 2018 - Current
+		<!-- Project description and info -->
+		<div class="project_data">
+			<ul style="margin:0;padding:0;"><li class="project_details">
+				<a href="https://sites.google.com/view/control4reuse"><span class="project_title">Control4Reuse</span></a> | Member (WP2) | 2018 - 2022
+			</li></ul>
 			
-		</li></ul>
-		
-		<p class="project_description">
-			Control4Reuse is aimed at research and development of technologies for managing water resources. The optimization of water treatment and reclamation systems has been integrated as a sustainable solution to improve the reuse of this valuable water resource. The focus is on the reuse of wastewater (WW) in specific agricultural and industrial sectors. From a technological point of view, the scope of the project is based on a system monitoring and control framework, with specific activities of monitoring and integrating sensor information/data, mathematical modelling of processes and designing advanced control strategies.
-		</p>
+			<p class="project_description">Control4Reuse is aimed at research and development of technologies for managing water resources. The optimization of water treatment and reclamation systems has been integrated as a sustainable solution to improve the reuse of this valuable water resource. The focus is on the reuse of wastewater (WW) in specific agricultural and industrial sectors. From a technological point of view, the scope of the project is based on a system monitoring and control framework, with specific activities of monitoring and integrating sensor information/data, mathematical modelling of processes and designing advanced control strategies.</p>
+		</div>
 	</div>
+	<!-- Separator -->
+	<hr class="entry_separator"> 
+	<!--  -->
+	
 </div>
-<hr class="entry_separator"> 
-
-</div>
-
+<!-- ______________________________________________________________ -->
 
 		</div>
 
 		<script>
-			$( "#projects_link" ).removeClass("unactive_page").addClass("active_page")
+			$( "#projects_link" ).removeClass("inactive_page").addClass("active_page")
 		</script>
 		
 	</body>

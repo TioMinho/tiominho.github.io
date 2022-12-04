@@ -1,3 +1,10 @@
+/*--------------------------------------------------------------------
+||  ./papers.css
+||	Copyright (c) 2022- by Otacilio 'Minho' Neto, <otacilio.neto@aalto.fi>
+||
+||	Styling for the project ('/papers/') page.
+\\___________________________________________________________________*/
+
 .section_title {
 	font-weight: 400;
 	color: #FD971F;
@@ -7,14 +14,6 @@
 	font-size: 12;
 	font-weight: 300;
 	color: #F8F8F1;
-}
-
-.small_icons {
-	max-width:22px;
-	max-height:22px;
-	width: auto;
-	height: auto;
-	vertical-align: bottom;
 }
 
 .content_box {
@@ -29,12 +28,20 @@
 }
 
 .bibtex_box {
-    white-space: pre-wrap;
+	white-space: pre-wrap;
 }
 
 .abstract_box {
 	word-wrap: break-word;
-    white-space: normal
+	white-space: normal
+}
+
+.small_icons {
+	max-width:22px;
+	max-height:22px;
+	width: auto;
+	height: auto;
+	vertical-align: bottom;
 }
 
 .entry_separator {

@@ -1,29 +1,74 @@
+/*--------------------------------------------------------------------
+||  ./blog_post.css
+||	Copyright (c) 2022- by Otacilio 'Minho' Neto, <otacilio.neto@aalto.fi>
+||
+||	Styling for the posts ('/blog/%POST$') page.
+\\___________________________________________________________________*/
+
+/* General aspects of the page */
+#home_content {
+	margin: 0 auto;
+	width: 75%;
+	max-width: 1000px;
+}
+
+#home_content p {
+	margin: 2pt 0;
+}
+
 .notes_content {
 	background-color: #F8F8F2;
 	color: #272822;
-	padding: 1% 2%;
+	padding: 3% 3%;
+	margin: 2% 0px;
 	border-bottom: 4px solid #55510E;
 	border-left: 5px solid #75715E;
 }
 
-.codehilite {
+.notes_content a {
+	color: rgb(34,102,136) !important; 
+	font-style: normal;  
+}
+
+.post_text_content {
 	margin: 0 auto;
-	border-left: 3px solid #75715E;
-	width: 80%;
-	padding: 1px 10px;
+	font-family: "Computer Modern Serif", sans-serif;
+	font-size: 12pt;
+	word-spacing: -1.25pt;
+}
+
+/* Markdown styling */
+.notes_content h1,h2,h3 {
+	margin: 15pt auto 0 auto;
+}
+
+/* Customization of title and headers */
+.post_header {
+	display: flex;
+	flex-direction: row;
+	font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+	color: #FD971F;
+}
+
+.post_header > .header_row {
+	display: flex 1;
+	width: 33%;
 }
 
 .post_title {
+	font-family: "Roboto", sans-serif;
+	font-size: 20pt;
 	color: #46B9CF;
 	margin-bottom: 0;
 	margin-top: 5px;
 }
 
-.post_tag {
-	border-radius: 4px;
-	padding: 0px 4px 0px 4px;
-	background-color: #FD971F;
-	color: white;
+.post_series {
+	font-family: "Roboto", sans-serif;
+	color: #2A2A2A;
+	font-weight: 600;
 }
 
 .bar_separator {
@@ -34,14 +79,63 @@
 	background-color: #75715E;
 }
 
-.post_date {
-	color: #75715E;
+/* ENVIRONMENTS */
+/* Theorem, Definition, Lemma, Corollaries... */
+.tex-block {
+	margin: 10pt 25px;
+	padding: 5px 25px;
+	border-radius: 10px;
+	text-align: justify;
+}
+.tex-block:before {
+	font-weight: bold; font-style: normal;
 }
 
-.post_description {
-	margin-top: 10px;
-	margin-bottom: 0;
-	text-align: justify;
-	color: #FD971F;
-	font-size: 14px;
+.tex-block.theorem { background-color: #277da122; border-left: 5px solid #277da132; display: block; font-style: italic; }
+.tex-block.theorem:before        { content: "Theorem. ";  }
+.tex-block.theorem[title]:before { content: "Theorem (" attr(title) "). " }
+.tex-block.lemma { background-color: #277da122; border-left: 5px solid #277da132; display: block; font-style: italic; }
+.tex-block.lemma:before        { content: "Lemma. "; }
+.tex-block.lemma[title]:before { content: "Lemma (" attr(title) "). " }
+.tex-block.corollary { background-color: #277da122; border-left: 5px solid #277da132; display: block; font-style: italic; }
+.tex-block.corollary:before        { content: "Corollary. "; }
+.tex-block.corollary[title]:before { content: "Corollary (" attr(title) "). " }
+.tex-block.definition { background-color: #90be6d22; border-left: 5px solid #90be6d32; display: block; font-style: normal; }
+.tex-block.definition:before        { content: "Definition. "; }
+.tex-block.definition[title]:before { content: "Definition (" attr(title) "). " }
+.tex-block.example { background-color: #f9414422; border-left: 5px solid #f9414432; display: block; font-style: normal; }
+.tex-block.example:before        { content: "Example. "; }
+.tex-block.example[title]:before { content: "Example (" attr(title) "). " }
+
+.tex-block a { color: black !important; font-weight: bold; font-style: normal;  }
+.tex-block .tex-proof { 
+	margin-top: 5px; padding-bottom: 5px; 
+	border-top: 1px dashed #2A2A2A32;
+	display: none;
 }
+
+/* Bibliography */
+.thebibliography {
+	color: #5e5e5e;
+	font-size: small;
+}
+
+/* Code blocks */
+.codehilite {
+	width: 85%;
+	margin: 10pt 25px;
+	padding: 1px 10px;
+	border-left: 5px solid #75715E;
+	border-radius: 10px;
+	font-size: medium;
+}
+
+.codehilitetable {
+	width: 85%;
+	margin: 10pt 25px;
+	padding: 1px 10px;
+	font-size: medium;
+}
+.codehilitetable .codehilite {	margin: 0; width: 100%; }
+.codehilitetable .linenos {	width: 1%; }
+.codehilitetable .code {	width: 100%; }
