@@ -7,14 +7,28 @@
 
 /* General aspects of the page */
 #home_content {
-	visibility: visible !important;
 	margin: 0 auto;
 	width: 75%;
 	max-width: 1000px;
 }
 
 #home_content p {
-	margin: 2pt 0;
+	margin: 5pt 0;
+}
+
+#home_content img {
+	margin: 5pt 0;
+	width: 100%;
+}
+
+#home_content ul {
+	margin: 1em 2em ; 
+	border-left: none;
+	list-style: inside;
+}
+
+#home_content li {
+	margin: 0.33em auto; 
 }
 
 .notes_content {
@@ -94,19 +108,22 @@
 
 .tex-block.theorem { background-color: #277da122; border-left: 5px solid #277da132; display: block; font-style: italic; }
 .tex-block.theorem:before        { content: "Theorem. ";  }
-.tex-block.theorem[title]:before { content: "Theorem (" attr(title) "). " }
+.tex-block.theorem[title]:before { content: "Theorem. (" attr(title) "). " }
 .tex-block.lemma { background-color: #277da122; border-left: 5px solid #277da132; display: block; font-style: italic; }
 .tex-block.lemma:before        { content: "Lemma. "; }
-.tex-block.lemma[title]:before { content: "Lemma (" attr(title) "). " }
+.tex-block.lemma[title]:before { content: "Lemma. (" attr(title) "). " }
 .tex-block.corollary { background-color: #277da122; border-left: 5px solid #277da132; display: block; font-style: italic; }
 .tex-block.corollary:before        { content: "Corollary. "; }
-.tex-block.corollary[title]:before { content: "Corollary (" attr(title) "). " }
+.tex-block.corollary[title]:before { content: "Corollary. (" attr(title) "). " }
 .tex-block.definition { background-color: #90be6d22; border-left: 5px solid #90be6d32; display: block; font-style: normal; }
 .tex-block.definition:before        { content: "Definition. "; }
-.tex-block.definition[title]:before { content: "Definition (" attr(title) "). " }
+.tex-block.definition[title]:before { content: "Definition. (" attr(title) "). " }
 .tex-block.example { background-color: #f9414422; border-left: 5px solid #f9414432; display: block; font-style: normal; }
 .tex-block.example:before        { content: "Example. "; }
-.tex-block.example[title]:before { content: "Example (" attr(title) "). " }
+.tex-block.example[title]:before { content: "Example. (" attr(title) "). " }
+.tex-block.remark { background-color: #00000022; border-left: 5px solid #00000032; display: block; font-style: normal; }
+.tex-block.remark:before        { content: "Remark. "; }
+.tex-block.remark[title]:before { content: "Remark. (" attr(title) "). " }
 
 .tex-block a { color: black !important; font-weight: bold; font-style: normal;  }
 .tex-block .tex-proof { 

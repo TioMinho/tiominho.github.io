@@ -36,12 +36,9 @@
 	white-space: normal
 }
 
-.small_icons {
-	max-width:22px;
-	max-height:22px;
-	width: auto;
-	height: auto;
-	vertical-align: bottom;
+.bib_entry .small_icon { 
+    display: inline-block;
+    margin-right: -5px;
 }
 
 .entry_separator {
@@ -49,3 +46,36 @@
 	border: 1px solid #101010;
 	border-radius: 10px;
 }
+
+/* ==== Icons ==== */
+.i3_abstract {
+    width: 32px; height: 32px;
+    background: url("/static/res/imgs/icons/sprite.svg") 0 -64px;
+    transform: scale(.75);
+}
+
+.i3_bibtex {
+    width: 32px; height: 32px;
+    background: url("/static/res/imgs/icons/sprite.svg") -32px -64px;
+    transform: scale(.75);
+}
+
+.i3_pdf {
+    width: 32px; height: 32px;
+    background: url("/static/res/imgs/icons/sprite.svg") -64px -64px;
+    transform: scale(.75);
+}
+
+.i3_mp4 {
+    width: 32px; height: 32px;
+    background: url("/static/res/imgs/icons/sprite.svg") -96px -64px;
+    transform: scale(.75);
+}
+
+.i3_arxiv {
+    width: 32px; height: 72px;
+    background: url("/static/res/imgs/icons/sprite.svg") -128px -64px;
+    transform: scale(.75);
+}
+
+

@@ -22,7 +22,6 @@
 
 		<link rel="stylesheet" type="text/css" href="/static/css/base.css">
 		<link rel="stylesheet" type="text/css" href="/static/css/index.css">
-		<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 		<script src="/static/js/jquery-3.4.1.js"></script>
 		<script src="/static/js/index.js"></script>
 		
@@ -32,23 +31,23 @@
 		<div class="home_content_menu_wrap">
 			<div class="home_content_menu" id="navbar_left">
 				<a href="/" class="inactive_page" id="index_link"><div class="menu_entry">
-					<img src="/static/res/imgs/icons/home.png">
+					<span class="i2_home"></span>
 					<span class="menu_entry_text">Home</span>
 				</div></a>
 				<a href="/projects" class="inactive_page" id="projects_link"><div class="menu_entry">
-					<img src="/static/res/imgs/icons/projects.png">
+					<span class="i2_projects"></span>
 					<span class="menu_entry_text">Projects</span>
 				</div></a>
 				<a href="/papers" class="inactive_page" id="papers_link"><div class="menu_entry">
-					<img src="/static/res/imgs/icons/papers.png">
+					<span class="i2_papers"></span>
 					<span class="menu_entry_text">Papers</span>
 				</div></a>
 				<a href="/wip" class="inactive_page" id="misc_link"><div class="menu_entry">
-					<img src="/static/res/imgs/icons/stuff.png">
+					<span class="i2_stuff"></span>
 					<span class="menu_entry_text">Stuff</span>
 				</div></a>
 				<a href="/wip" class="inactive_page" id="blog_link"><div class="menu_entry">
-					<img src="/static/res/imgs/icons/blog.png">
+					<span class="i2_notes"></span>
 					<span class="menu_entry_text">Blog</span>
 				</div></a>
 			</div>
@@ -59,45 +58,45 @@
 
 		<div id="home_content">
 			
-    <!-- Wrapper for homepage content (Pic + Bio) -->
-    <div class="home_content_info">
-        <!-- Picture and contact icons -->
-        <div class="home_content_inside" id="picbox">
-            <span class="highlight3">Otacílio "Minho" Neto</span><br>
+<!-- Wrapper for homepage content (Pic + Bio) -->
+<div class="home_content_info">
+    <!-- Picture and contact icons -->
+    <div id="picbox">
+        <span class="highlight3">Otacílio "Minho" Neto</span><br>
 
-            <div class="myinfo" id="info_profile">
-                <img src="/static/res/imgs/me.jpeg" id="myprofile">
-            </div>
-
-            <div class="myinfo" id="info_contact">
-                <div><a href="mailto:otacilio.neto@aalto.fi"><img src="/static/res/imgs/icons/email.png" class="info_icon"></a></div>
-                <div><a href="https://github.com/TioMinho"><img src="/static/res/imgs/icons/github.png" class="info_icon"></a></div>
-                <div><a href="https://twitter.com/_tioMinho"><img src="/static/res/imgs/icons/twitter.png" class="info_icon"></a></div>
-                <div><a href="https://www.researchgate.net/profile/Otacilio_Neto5"><img src="/static/res/imgs/icons/regate.png" class="info_icon"></a></div>
-                <div><a href="https://research.aalto.fi/en/persons/otacilio-bezerra-leite-neto"><img src="/static/res/imgs/icons/aalto.png" class="info_icon"></a></div>
-            </div>
+        <div id="info_profile">
+            <img src='/static/res/imgs/me.jpeg' id='myprofile'>
         </div>
 
-        <!-- Short bio -->
-        <div class="home_content_inside" id="textbox">
-            <!-- Title of page -->
-            <h1 class="page_title">Hi! I'm Minho.</h1>
-
-            <p>
-                My name is <b>Otacílio B.L. Neto</b>, but people call me "Minho".
-            </p>
-            <p>
-                I am a PhD candidate within the Process Control and Automation group at <a href="https://www.aalto.fi/en/">Aalto University</a> (Finland). I hold a B.Eng. in Computer Engineering and a M.Sc. in Teleinformatics Engineering from the <a href="http://www.ufc.br/">Federal University of Ceará</a> (UFC, Brazil). 
-                My research interests lie on the fields of <a href="https://en.wikipedia.org/wiki/Optimal_control">optimal and robust control theory</a> and <a href="https://en.wikipedia.org/wiki/Machine_learning">statistical machine learning</a>, with applications to the optimal control and estimation of large-scale (bio)chemical systems. Marginally, I also have an interest in algorithmic problem solving and graph theory. 
-            </p>
-            <p>
-                I like teaching. I have engaged with several teaching activities and have worked as teaching assistant for university courses ever since an undergraduate. To help others, I try to write notes and code for the subjects of my studies: These are organized in my <a href="blog">Blog</a>.
-            </p>
-            <p>
-                If you wish to contact me, please send me an email: <a href="mailto:otacilio.neto@aalto.fi">otacilio.neto@aalto.fi</a>.
-            </p>
+        <div id="info_contact">
+            <div class="info_contact_entry"><a id="i1_home" href="mailto:otacilio.neto@aalto.fi"></a></div>
+            <div class="info_contact_entry"><a id="i1_github" href="https://github.com/TioMinho"></a></div>
+            <div class="info_contact_entry"><a id="i1_twitter" href="https://twitter.com/_tioMinho"></a></div>
+            <div class="info_contact_entry"><a id="i1_regate" href="https://www.researchgate.net/profile/Otacilio_Neto5"></a></div>
+            <div class="info_contact_entry"><a id="i1_aalto" href="https://research.aalto.fi/en/persons/otacilio-bezerra-leite-neto"></a></div>
         </div>
     </div>
+
+    <!-- Short bio -->
+    <div id="biobox">
+        <!-- Title of page -->
+        <h1 class="page_title">Hi! I'm Minho.</h1>
+
+        <p>
+            My name is <b>Otacílio B.L. Neto</b>, but people call me "Minho".
+        </p>
+        <p>
+            I am a PhD candidate within the Process Control and Automation group at <a href="https://www.aalto.fi/en/">Aalto University</a> (Finland). I hold a B.Eng. in Computer Engineering and a M.Sc. in Teleinformatics Engineering from the <a href="http://www.ufc.br/">Federal University of Ceará</a> (UFC, Brazil). 
+            My research interests lie on the fields of <a href="https://en.wikipedia.org/wiki/Optimal_control">control theory</a>, <a href="https://en.wikipedia.org/wiki/Game_theory">dynamic game theory</a> and <a href="https://en.wikipedia.org/wiki/Machine_learning">statistical machine learning</a>, with applications to the optimal control and estimation of large-scale (bio)chemical systems. I also have an interest in algorithmic problem solving and graph theory. 
+        </p>
+        <p>
+            I like teaching. I have engaged with several teaching activities and have worked as teaching assistant for university courses ever since an undergraduate. You can find my lecture notes, tutorials, and general yapping in the <a href="notes">Notes</a> page.
+        </p>
+        <p>
+            If you wish to contact me, please send me an email: <a href="mailto:otacilio.neto@aalto.fi">otacilio.neto@aalto.fi</a>.
+        </p>
+    </div>
+</div>
 
 		</div>
 

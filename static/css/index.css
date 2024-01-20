@@ -5,29 +5,18 @@
 ||	Styling for the index ('/') homepage.
 \\___________________________________________________________________*/
 
-/* Content-box of the homepage */
+/* === Content-box of the homepage === */
 .home_content_info {
 	display: flex;
 	padding-top: 25px;
 	text-align: center;
 }
 
-/* Picture box, contact, and icons */
+/* === Picture box, contact, and icons === */
 #picbox {
+    text-align: center;
 	width: 25%;
 	padding-right: 2%;
-}
-
-.myinfo {
-	display: flex;
-	text-align: center;
-}
-.myinfo > div {	flex: 1; }
-
-.myinfo img {
-	display: block-inline;
-	margin: 0 auto;
-	vertical-align: middle;
 }
 
 #myprofile {
@@ -36,20 +25,53 @@
 }
 
 #info_contact {
+    display: flex;
 	background-color: #1A1A1A;
 	border-radius: 15px;
 	margin-top: 10px;
 	padding: 2px;
 }
 
-.info_icon {
-	width:  auto;	max-width:  30px;
-	height: auto;	max-height: 30px;
+.info_contact_entry {
+    width: 32px; height: 32px;
+    flex: 1;
 }
 
-/* Text box for the short bio */
-#textbox {
-	padding-left: 2%;
-	width: 75%;
-	text-align: justify;
+.info_contact_entry a {
+    display: inline-block;
 }
+
+/* === Text box for the short bio === */
+#biobox {
+    text-align: justify;
+    width: 75%;
+	padding-left: 2%;
+}
+
+/* ==== Icons ==== */
+#i1_home {
+    width: 32px; height: 32px;
+    background: url("/static/res/imgs/icons/sprite.svg") 0 0;
+}
+
+#i1_github {
+    width: 32px; height: 32px;
+    background: url("/static/res/imgs/icons/sprite.svg") -32px 0;
+}
+
+#i1_twitter {
+    width: 32px; height: 32px;
+    background: url("/static/res/imgs/icons/sprite.svg") -64px 0;
+}
+
+#i1_regate {
+    width: 32px; height: 32px;
+    background: url("/static/res/imgs/icons/sprite.svg") -96px 0;
+}
+
+#i1_aalto {
+    width: 32px; height: 32px;
+    background: url("/static/res/imgs/icons/sprite.svg") -128px 0;
+}
+
+/* ==== ==== */
