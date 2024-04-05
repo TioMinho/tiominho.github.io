@@ -12,7 +12,6 @@
 ||	Defines the base of all pages in the website: 
 ||	Nav-bar, color themes, main scripts, etc.
 \\___________________________________________________________________-->  
-
 <!doctype html>
 	<head>
 		<meta charset="utf-8">
@@ -22,7 +21,7 @@
 
 		<link rel="stylesheet" type="text/css" href="/static/css/base.css">
 		<link rel="stylesheet" type="text/css" href="/static/css/papers.css">
-		<script src="/static/js/jquery-3.4.1.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 		<script src="/static/js/papers.js"></script>
 		
 	</head>
@@ -31,24 +30,19 @@
 		<div class="home_content_menu_wrap">
 			<div class="home_content_menu" id="navbar_left">
 				<a href="/" class="inactive_page" id="index_link"><div class="menu_entry">
-					<span class="i2_home"></span>
-					<span class="menu_entry_text">Home</span>
+					<span class="i2_home"></span><span class="menu_entry_text">Home</span>
 				</div></a>
 				<a href="/projects" class="inactive_page" id="projects_link"><div class="menu_entry">
-					<span class="i2_projects"></span>
-					<span class="menu_entry_text">Projects</span>
+					<span class="i2_projects"></span><span class="menu_entry_text">Projects</span>
 				</div></a>
 				<a href="/papers" class="inactive_page" id="papers_link"><div class="menu_entry">
-					<span class="i2_papers"></span>
-					<span class="menu_entry_text">Papers</span>
+					<span class="i2_papers"></span><span class="menu_entry_text">Papers</span>
 				</div></a>
 				<a href="/wip" class="inactive_page" id="misc_link"><div class="menu_entry">
-					<span class="i2_stuff"></span>
-					<span class="menu_entry_text">Stuff</span>
+					<span class="i2_stuff"></span><span class="menu_entry_text">Stuff</span>
 				</div></a>
-				<a href="/wip" class="inactive_page" id="blog_link"><div class="menu_entry">
-					<span class="i2_notes"></span>
-					<span class="menu_entry_text">Blog</span>
+				<a href="/notes" class="inactive_page" id="notes_link"><div class="menu_entry">
+					<span class="i2_notes"></span><span class="menu_entry_text">Notes</span>
 				</div></a>
 			</div>
 			<div class="menu_entry" id="navbar_title"><a href="/">
@@ -65,6 +59,32 @@
 
  	<!-- Publication entries (loop through all) -->
 	<ul class="bib_section">
+		
+		<li class="bib_entry">
+			<!-- Title / -->
+			 
+                <b>SLS-BRD: A system-level approach to seeking generalised feedback Nash equilibria</b><br>
+			 
+
+			<!-- Author -->
+ 			O. Neto, M. Mulas, F. Corona<br>
+			<!-- Journal / Conference / Thesis -->
+			
+				<i>_</i>, _(_) : _, 2024. (Preprint) 
+			
+			<br>
+
+			<!-- Icons -->
+            <a href=javascript:void(0)
+                class='small_icon i3_abstract' type="button" onclick="show_content('abstract', 'box_NMC_SLSBRD', 'This work proposes a policy learning algorithm for generalised feedback Nash equilibrium seeking in $N_P$-players non-cooperative dynamic games. We consider linear-quadratic games with stochastic dynamics and design a best-response dynamics in which players update and communicate a parametrisation of their state-feedback policies. Our approach leverages the System Level Synthesis (SLS) framework to formulate each player\&#39;s update rule as the solution of a tractable robust optimisation problem. Under certain conditions, the conditions and rates of convergence can be established. The algorithm is showcased for an exemplary problem from decentralised control of multi-agent systems.' )">
+            </a><a href=/static/papers/NMC_SLSBRD.pdf
+                class='small_icon i3_pdf' type="button" onclick="show_content('pdf', 'box_NMC_SLSBRD', 'NMC_SLSBRD.pdf' )">
+            </a>
+
+			<!-- Content box -->
+			<div class="content_box" id="box_NMC_SLSBRD"><span class="content_box_text" id="box_NMC_SLSBRD_text"></span></div>
+ 			<hr class="entry_separator">
+		</li>
 		
 		<li class="bib_entry">
 			<!-- Title / -->
@@ -344,7 +364,7 @@
 		</div>
 
 		<script>
-			$( "#papers_link" ).removeClass("inactive_page").addClass("active_page")
+			$("#papers_link").removeClass("inactive_page").addClass("active_page")
 		</script>
 		
 	</body>

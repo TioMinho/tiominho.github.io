@@ -1,6 +1,22 @@
 {
 "Journal Articles": [
     {
+        "id":  "NMC_SLSBRD",
+        "year": 2024,
+        "title": "SLS-BRD: A system-level approach to seeking generalised feedback Nash equilibria",
+        "author": "O. Neto, M. Mulas, F. Corona",
+        "journal": "_",
+        "volume": "_",
+        "number": "_",
+        "pages": "_",
+        "doi": "",
+        "bibtex": "",
+        "pdf": "NMC_SLSBRD.pdf",
+        "mp4": "",
+        "abstract": "This work proposes a policy learning algorithm for generalised feedback Nash equilibrium seeking in $N_P$-players non-cooperative dynamic games. We consider linear-quadratic games with stochastic dynamics and design a best-response dynamics in which players update and communicate a parametrisation of their state-feedback policies. Our approach leverages the System Level Synthesis (SLS) framework to formulate each player\\'s update rule as the solution of a tractable robust optimisation problem. Under certain conditions, the conditions and rates of convergence can be established. The algorithm is showcased for an exemplary problem from decentralised control of multi-agent systems.",
+        "notes": "(Preprint)"
+    },
+    {
         "id":  "NMC_BSM1_Control",
         "year": 2024,
         "title": "A control-based framework for operating activated sludge plants",

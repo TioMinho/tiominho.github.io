@@ -12,7 +12,6 @@
 ||	Defines the base of all pages in the website: 
 ||	Nav-bar, color themes, main scripts, etc.
 \\___________________________________________________________________-->  
-
 <!doctype html>
 	<head>
 		<meta charset="utf-8">
@@ -22,7 +21,7 @@
 
 		<link rel="stylesheet" type="text/css" href="/static/css/base.css">
 		<link rel="stylesheet" type="text/css" href="/static/css/stuff.css">
-		<script src="/static/js/jquery-3.4.1.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 		<script src="/static/js/stuff.js"></script>
 		
 	</head>
@@ -31,24 +30,19 @@
 		<div class="home_content_menu_wrap">
 			<div class="home_content_menu" id="navbar_left">
 				<a href="/" class="inactive_page" id="index_link"><div class="menu_entry">
-					<span class="i2_home"></span>
-					<span class="menu_entry_text">Home</span>
+					<span class="i2_home"></span><span class="menu_entry_text">Home</span>
 				</div></a>
 				<a href="/projects" class="inactive_page" id="projects_link"><div class="menu_entry">
-					<span class="i2_projects"></span>
-					<span class="menu_entry_text">Projects</span>
+					<span class="i2_projects"></span><span class="menu_entry_text">Projects</span>
 				</div></a>
 				<a href="/papers" class="inactive_page" id="papers_link"><div class="menu_entry">
-					<span class="i2_papers"></span>
-					<span class="menu_entry_text">Papers</span>
+					<span class="i2_papers"></span><span class="menu_entry_text">Papers</span>
 				</div></a>
 				<a href="/wip" class="inactive_page" id="misc_link"><div class="menu_entry">
-					<span class="i2_stuff"></span>
-					<span class="menu_entry_text">Stuff</span>
+					<span class="i2_stuff"></span><span class="menu_entry_text">Stuff</span>
 				</div></a>
-				<a href="/wip" class="inactive_page" id="blog_link"><div class="menu_entry">
-					<span class="i2_notes"></span>
-					<span class="menu_entry_text">Blog</span>
+				<a href="/notes" class="inactive_page" id="notes_link"><div class="menu_entry">
+					<span class="i2_notes"></span><span class="menu_entry_text">Notes</span>
 				</div></a>
 			</div>
 			<div class="menu_entry" id="navbar_title"><a href="/">
@@ -64,7 +58,7 @@
 		</div>
 
 		<script>
-			$( "#stuff_link" ).removeClass("inactive_page").addClass("active_page")
+			$("#stuff_link").removeClass("inactive_page").addClass("active_page")
 		</script>
 		
 	</body>

@@ -8,8 +8,10 @@
 /* General aspects of the page */
 #home_content {
 	margin: 0 auto;
-	width: 75%;
-	max-width: 1000px;
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
 }
 
 #home_content p {
@@ -22,22 +24,41 @@
 }
 
 #home_content ul {
-	margin: 1em 2em ; 
+	margin: 1em 0; 
 	border-left: none;
 	list-style: inside;
 }
 
 #home_content li {
-	margin: 0.33em auto; 
+	margin: 0.15em auto; 
 }
 
+/* NOTES SUMMARY */
+.notes_summary {
+    width: 20%;
+    margin: 1% 0px;
+    font-family: "Courier New", monospace;
+    font-size: 12px;
+}
+
+.notes_summary li { list-style: none; }
+
+.ls_folders a { color: #FD971F !important; }
+.ls_files #current a { 
+    color: #F8F8F2 !important;
+    text-decoration: underline !important; 
+}
+
+.ls_files a:hover { text-decoration: underline !important; }
+
+/* NOTES CONTENT */
 .notes_content {
+    width: 66%;
 	background-color: #F8F8F2;
 	color: #272822;
 	padding: 3% 3%;
-	margin: 2% 0px;
-	border-bottom: 4px solid #55510E;
-	border-left: 5px solid #75715E;
+	margin: 1% 0px;
+	border-left: 3px solid #5A5A5A;
 }
 
 .notes_content a {
@@ -48,14 +69,18 @@
 .post_text_content {
 	margin: 0 auto;
 	font-family: "Computer Modern Serif", sans-serif;
-	font-size: 12pt;
+	font-size: medium;
 	word-spacing: -1.25pt;
 }
 
 /* Markdown styling */
 .notes_content h1,h2,h3 {
-	margin: 15pt auto 0 auto;
+	margin: 16pt auto 0 auto;
 }
+
+.notes_content h1 { font-size: 5em; }
+.notes_content h2 { font-size: 3em; }
+.notes_content h3 { font-size: 2em; }
 
 /* Customization of title and headers */
 .post_header {
@@ -146,6 +171,7 @@
 	border-left: 5px solid #75715E;
 	border-radius: 10px;
 	font-size: medium;
+    font-family: "Courier New", monospace;
 }
 
 .codehilitetable {
