@@ -8,87 +8,80 @@
 
 /* I forgor what these below do, :( */
 * {
-  -webkit-box-sizing: border-box; 
-  -moz-box-sizing: border-box;    
-  box-sizing: border-box;         
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;         
 }
 
 /* ==== GENERAL STYLING ====  */
+html { margin: 0; height: 100%; }
 body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: #F8F8F2;
-}
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: 100%;
 
-/* Website entire background */
-.box {
-  margin: 0px 0px 0px 0px;
-  width: 100%;
-  background:
-    radial-gradient(black 15%, transparent 20%) 0 0,
-    radial-gradient(rgba(120,120,120,.1) 15%, transparent 20%) 1px 1px;
-  background-color:#070802;
-  background-size: 7px 7px;
+    background:
+        radial-gradient(black 15%, transparent 20%) 0 0,
+        radial-gradient(rgba(120,120,120,.1) 15%, transparent 20%) 1px 1px;
+    background-color:#070802;
+    background-size: 7px 7px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #F8F8F2;
 }
 
 /* Nav-bar */
-#navbar_left { float: left; margin-left: 0;}
-#navbar_title { margin: auto 0; padding-right: 50px;}
-#navbar_title > a { float:right; color:#FD971F; font-weight: 300; text-decoration: none;}
-
-.home_content_menu_wrap {
-  display: flex;
-  margin: 0 auto;
-  background-color: #F8F8F2;
-  width: 100%;
-  border-bottom: 1px solid #FD971F;
+#navbar {
+    overflow: auto;
+    position: fixed;
+    width: 10%;
+    height: 100%;
+    background-color: #F8F8F2;
 }
 
-.home_content_menu {
-  display: flex;
-  margin: 0 auto;
-  width: 40%; max-width: 650px;
-  height: 100%;
-  text-align: center;
-}
-.home_content_menu > a { flex: 1; }
-
-.menu_entry {
-  display: inline-block;
-  padding: 8px 0;
-  font-weight: 450;
-  vertical-align: middle;
+#navbar span {
+    display: inline-block;
+    margin-right: 5px;
+    line-height: 32px;
+    vertical-align: middle;
 }
 
-.menu_entry span {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 5px;
+#navbar_menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
-.inactive_page {
-  text-decoration: none;
-  color: #070802;
+#navbar_menu li a {
+    text-decoration: none; 
+    color: #070802;
+    padding: 5px 10px;
+    display: block;
+    font-weight: 450; 
 }
 
-.inactive_page:hover {
-  color: #FD971F;
-  background-color: #29281E;
+#navbar_menu a.active_page { 
+    background-color: #070802; 
+    color: #FFF; 
 }
 
-.active_page {
-  color: #FD971F;
-  background-color: #070802;
+#navbar_menu a:hover:not(.active_page) {
+    background-color: #29281E; 
+    color: #FFF;
 }
 
 /* Main content-box */
 #home_content {
-    margin: 0 auto;
-    width: 67%;
+    margin-left: 10%;
+    padding: 0 5%;
+    width: 100%;  
 }
 
-#home_content a {
+a {
     text-decoration: none; 
     color: #66D9EF;
 }
@@ -124,8 +117,9 @@ body {
 /* ==== Misc ==== */
 /* A header title for the pages */
 .page_title {
-  font-weight: 200;
-  color: #FD971F;
+    margin: 0 auto;
+    font-weight: 200;
+    color: #FD971F;
 }
 
 /* Different font highlighting */

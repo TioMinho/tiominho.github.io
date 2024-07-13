@@ -5,17 +5,10 @@
 ||  A 404-type WIP page.
 ||  Displays the obra do cao picture.
 \\___________________________________________________________________-->  
-<!--------------------------------------------------------------------
-||	./base.html
-||	Copyright (c) 2022- by Otacilio 'Minho' Neto, <otacilio.neto@aalto.fi>
-||	
-||	Defines the base of all pages in the website: 
-||	Nav-bar, color themes, main scripts, etc.
-\\___________________________________________________________________-->  
 <!doctype html>
 	<head>
 		<meta charset="utf-8">
-		<title>Minho&#39;s Homepage | WIP</title>
+		<title>Minho&#39;s Homepage</title>
 
 		<link rel="icon" type="image/png" href="/static/res/imgs/icons/favicon.ico"/>
 
@@ -25,30 +18,27 @@
 		<script src="/static/js/stuff.js"></script>
 		
 	</head>
-	
-	<body class="box">
-		<div class="home_content_menu_wrap">
-			<div class="home_content_menu" id="navbar_left">
-				<a href="/" class="inactive_page" id="index_link"><div class="menu_entry">
-					<span class="i2_home"></span><span class="menu_entry_text">Home</span>
-				</div></a>
-				<a href="/projects" class="inactive_page" id="projects_link"><div class="menu_entry">
-					<span class="i2_projects"></span><span class="menu_entry_text">Projects</span>
-				</div></a>
-				<a href="/papers" class="inactive_page" id="papers_link"><div class="menu_entry">
-					<span class="i2_papers"></span><span class="menu_entry_text">Papers</span>
-				</div></a>
-				<a href="/wip" class="inactive_page" id="misc_link"><div class="menu_entry">
-					<span class="i2_stuff"></span><span class="menu_entry_text">Stuff</span>
-				</div></a>
-				<a href="/notes" class="inactive_page" id="notes_link"><div class="menu_entry">
-					<span class="i2_notes"></span><span class="menu_entry_text">Notes</span>
-				</div></a>
-			</div>
-			<div class="menu_entry" id="navbar_title"><a href="/">
-				Minho's Homepage
-			</a></div>
-		</div>
+
+	<body>
+        <div id="navbar">
+            <ul id="navbar_menu">
+                <li><a href="/" >
+                    <span class="i2_home"></span><span class="menu_entry_text">Home</span>
+                </a></li>
+                <li><a href="/projects" >
+                    <span class="i2_projects"></span><span class="menu_entry_text">Projects</span>
+                </a></li>
+                <li><a href="/papers" >
+                    <span class="i2_papers"></span><span class="menu_entry_text">Papers</span>
+                </a></li>
+                <li><a href="/wip" class=active_page>
+                    <span class="i2_stuff"></span><span class="menu_entry_text">Stuff</span>
+                </a></li>
+                <li><a href="/notes" >
+                    <span class="i2_notes"></span><span class="menu_entry_text">Notes</span>
+                </a></li>
+            </ul>
+        </div>
 
 		<div id="home_content">
 			
@@ -57,9 +47,6 @@
 
 		</div>
 
-		<script>
-			$("#stuff_link").removeClass("inactive_page").addClass("active_page")
-		</script>
 		
 	</body>
 </html>

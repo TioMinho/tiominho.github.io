@@ -5,17 +5,10 @@
 ||  My academic projects page.
 ||	Displays current and past project information.
 \\___________________________________________________________________-->  
-<!--------------------------------------------------------------------
-||	./base.html
-||	Copyright (c) 2022- by Otacilio 'Minho' Neto, <otacilio.neto@aalto.fi>
-||	
-||	Defines the base of all pages in the website: 
-||	Nav-bar, color themes, main scripts, etc.
-\\___________________________________________________________________-->  
 <!doctype html>
 	<head>
 		<meta charset="utf-8">
-		<title>Minho&#39;s Homepage | Projects</title>
+		<title>Minho&#39;s Homepage</title>
 
 		<link rel="icon" type="image/png" href="/static/res/imgs/icons/favicon.ico"/>
 
@@ -25,30 +18,27 @@
 		<script src="/static/js/projects.js"></script>
 		
 	</head>
-	
-	<body class="box">
-		<div class="home_content_menu_wrap">
-			<div class="home_content_menu" id="navbar_left">
-				<a href="/" class="inactive_page" id="index_link"><div class="menu_entry">
-					<span class="i2_home"></span><span class="menu_entry_text">Home</span>
-				</div></a>
-				<a href="/projects" class="inactive_page" id="projects_link"><div class="menu_entry">
-					<span class="i2_projects"></span><span class="menu_entry_text">Projects</span>
-				</div></a>
-				<a href="/papers" class="inactive_page" id="papers_link"><div class="menu_entry">
-					<span class="i2_papers"></span><span class="menu_entry_text">Papers</span>
-				</div></a>
-				<a href="/wip" class="inactive_page" id="misc_link"><div class="menu_entry">
-					<span class="i2_stuff"></span><span class="menu_entry_text">Stuff</span>
-				</div></a>
-				<a href="/notes" class="inactive_page" id="notes_link"><div class="menu_entry">
-					<span class="i2_notes"></span><span class="menu_entry_text">Notes</span>
-				</div></a>
-			</div>
-			<div class="menu_entry" id="navbar_title"><a href="/">
-				Minho's Homepage
-			</a></div>
-		</div>
+
+	<body>
+        <div id="navbar">
+            <ul id="navbar_menu">
+                <li><a href="/" >
+                    <span class="i2_home"></span><span class="menu_entry_text">Home</span>
+                </a></li>
+                <li><a href="/projects" class=active_page>
+                    <span class="i2_projects"></span><span class="menu_entry_text">Projects</span>
+                </a></li>
+                <li><a href="/papers" >
+                    <span class="i2_papers"></span><span class="menu_entry_text">Papers</span>
+                </a></li>
+                <li><a href="/wip" >
+                    <span class="i2_stuff"></span><span class="menu_entry_text">Stuff</span>
+                </a></li>
+                <li><a href="/notes" >
+                    <span class="i2_notes"></span><span class="menu_entry_text">Notes</span>
+                </a></li>
+            </ul>
+        </div>
 
 		<div id="home_content">
 			
@@ -67,7 +57,6 @@
 			<ul style="margin:0;padding:0;"><li class="project_details">
 				<a href="https://sites.google.com/view/control4reuse"><span class="project_title">Control4Reuse</span></a> | Member (WP2) | 2018 - 2022
 			</li></ul>
-			
 			<p class="project_description">Control4Reuse is aimed at research and development of technologies for managing water resources. The optimization of water treatment and reclamation systems has been integrated as a sustainable solution to improve the reuse of this valuable water resource. The focus is on the reuse of wastewater (WW) in specific agricultural and industrial sectors. From a technological point of view, the scope of the project is based on a system monitoring and control framework, with specific activities of monitoring and integrating sensor information/data, mathematical modelling of processes and designing advanced control strategies.</p>
 		</div>
 	</div>
@@ -80,9 +69,6 @@
 
 		</div>
 
-		<script>
-			$("#projects_link").removeClass("inactive_page").addClass("active_page")
-		</script>
 		
 	</body>
 </html>

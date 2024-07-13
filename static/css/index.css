@@ -15,7 +15,7 @@
 /* === Picture box, contact, and icons === */
 #picbox {
     text-align: center;
-	width: 25%;
+	width: 25%; max-width: 256px;
 	padding-right: 2%;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .info_contact_entry {
-    width: 32px; height: 32px;
+    height: 32px;
     flex: 1;
 }
 

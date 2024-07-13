@@ -33,88 +33,70 @@
 	margin: 0.15em auto; 
 }
 
+#navbar { width: 17%; }
+
 /* NOTES SUMMARY */
-.notes_summary {
-    width: 20%;
-    margin: 1% 0px;
+.ls_folders, .ls_files {
+    width: 90%;
+    padding: 0 0 0 15px !important;
     font-family: "Courier New", monospace;
-    font-size: 12px;
+    font-size: 14px;
+
+}
+.ls_folders a { 
+    color: #FD971F; 
+    text-decoration: none;
 }
 
-.notes_summary li { list-style: none; }
-
-.ls_folders a { color: #FD971F !important; }
-.ls_files #current a { 
-    color: #F8F8F2 !important;
-    text-decoration: underline !important; 
+.ls_files a { 
+    color: rgb(34,102,136); 
+    text-decoration: none;
 }
 
-.ls_files a:hover { text-decoration: underline !important; }
+.ls_files #current a, .ls_files a:hover { text-decoration: underline !important; }
 
 /* NOTES CONTENT */
 .notes_content {
-    width: 66%;
-	background-color: #F8F8F2;
-	color: #272822;
-	padding: 3% 3%;
-	margin: 1% 0px;
-	border-left: 3px solid #5A5A5A;
+    margin-left: 17%;
+    width: 100%;
+	padding: 1% 5%;
 }
 
-.notes_content a {
-	color: rgb(34,102,136) !important; 
-	font-style: normal;  
+.post_text_content p {
+    margin: 0 0 1em 0;
+    text-align: justify;
 }
 
 .post_text_content {
 	margin: 0 auto;
-	font-family: "Computer Modern Serif", sans-serif;
-	font-size: medium;
-	word-spacing: -1.25pt;
+	font-family: "Times New Roman", sans-serif;
+	font-size: 14pt;
 }
 
 /* Markdown styling */
-.notes_content h1,h2,h3 {
-	margin: 16pt auto 0 auto;
-}
-
+.notes_content h1,h2,h3 { margin: 0.5em 0 0.25em 0; }
 .notes_content h1 { font-size: 5em; }
 .notes_content h2 { font-size: 3em; }
 .notes_content h3 { font-size: 2em; }
 
 /* Customization of title and headers */
-.post_header {
+.post_footer {
+    margin: 20px auto;
 	display: flex;
 	flex-direction: row;
 	font-size: 12px;
 	text-align: center;
-	vertical-align: middle;
-	color: #FD971F;
 }
 
-.post_header > .header_row {
+.post_footer > .footer_col {
 	display: flex 1;
 	width: 33%;
-}
-
-.post_title {
-	font-family: "Roboto", sans-serif;
-	font-size: 20pt;
-	color: #46B9CF;
-	margin-bottom: 0;
-	margin-top: 5px;
-}
-
-.post_series {
-	font-family: "Roboto", sans-serif;
-	color: #2A2A2A;
-	font-weight: 600;
 }
 
 .bar_separator {
 	margin: 5mm auto;
 	display: block;
-	width: 90%;
+	width: 100%;
 	height: 1px;
 	background-color: #75715E;
 }
@@ -122,46 +104,50 @@
 /* ENVIRONMENTS */
 /* Theorem, Definition, Lemma, Corollaries... */
 .tex-block {
+    width: 85%;
 	margin: 10pt 25px;
 	padding: 5px 25px;
 	border-radius: 10px;
 	text-align: justify;
+    background-color: #2A2A2A80;
 }
 .tex-block:before {
 	font-weight: bold; font-style: normal;
 }
 
-.tex-block.theorem { background-color: #277da122; border-left: 5px solid #277da132; display: block; font-style: italic; }
+.tex-block.theorem {  border-left: 5px solid #5864dd; display: block; font-style: italic; }
 .tex-block.theorem:before        { content: "Theorem. ";  }
-.tex-block.theorem[title]:before { content: "Theorem. (" attr(title) "). " }
-.tex-block.lemma { background-color: #277da122; border-left: 5px solid #277da132; display: block; font-style: italic; }
+.tex-block.theorem[title]:before { content: "Theorem (" attr(title) "). " }
+.tex-block.lemma { border-left: 5px solid #5864dd; display: block; font-style: italic; }
 .tex-block.lemma:before        { content: "Lemma. "; }
-.tex-block.lemma[title]:before { content: "Lemma. (" attr(title) "). " }
-.tex-block.corollary { background-color: #277da122; border-left: 5px solid #277da132; display: block; font-style: italic; }
+.tex-block.lemma[title]:before { content: "Lemma (" attr(title) "). " }
+.tex-block.corollary { border-left: 5px solid #5864dd; display: block; font-style: italic; }
 .tex-block.corollary:before        { content: "Corollary. "; }
 .tex-block.corollary[title]:before { content: "Corollary. (" attr(title) "). " }
-.tex-block.definition { background-color: #90be6d22; border-left: 5px solid #90be6d32; display: block; font-style: normal; }
+.tex-block.definition { border-left: 5px solid #699c52; display: block; font-style: normal; }
 .tex-block.definition:before        { content: "Definition. "; }
-.tex-block.definition[title]:before { content: "Definition. (" attr(title) "). " }
-.tex-block.example { background-color: #f9414422; border-left: 5px solid #f9414432; display: block; font-style: normal; }
+.tex-block.definition[title]:before { content: "Definition (" attr(title) "). " }
+.tex-block.example { border-left: 5px solid #f94144; display: block; font-style: normal; }
 .tex-block.example:before        { content: "Example. "; }
-.tex-block.example[title]:before { content: "Example. (" attr(title) "). " }
-.tex-block.remark { background-color: #00000022; border-left: 5px solid #00000032; display: block; font-style: normal; }
+.tex-block.example[title]:before { content: "Example (" attr(title) "). " }
+.tex-block.remark { border-left: 5px solid #FFFFFF; display: block; font-style: normal; }
 .tex-block.remark:before        { content: "Remark. "; }
-.tex-block.remark[title]:before { content: "Remark. (" attr(title) "). " }
+.tex-block.remark[title]:before { content: "Remark (" attr(title) "). " }
 
-.tex-block a { color: black !important; font-weight: bold; font-style: normal;  }
+.tex-block a { color: white !important; font-weight: bold; font-style: normal;  }
 .tex-block .tex-proof { 
-	margin-top: 5px; padding-bottom: 5px; 
-	border-top: 1px dashed #2A2A2A32;
+	margin-top: 0.5em; padding-bottom: 5px; 
+	border-top: 1px dashed #AAA3;
 	display: none;
 }
 
 /* Bibliography */
 .thebibliography {
-	color: #5e5e5e;
+	color: #AAA;
 	font-size: small;
 }
+
+.thebibliography p { margin: 0; }
 
 /* Code blocks */
 .codehilite {
@@ -180,6 +166,6 @@
 	padding: 1px 10px;
 	font-size: medium;
 }
-.codehilitetable .codehilite {	margin: 0; width: 100%; }
+.codehilitetable .codehilite { margin: 0; width: 100%; }
 .codehilitetable .linenos {	width: 1%; }
-.codehilitetable .code {	width: 100%; }
+.codehilitetable .code { width: 100%; }
