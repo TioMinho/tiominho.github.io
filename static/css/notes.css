@@ -41,7 +41,8 @@
     padding: 0 0 0 15px !important;
     font-family: "Courier New", monospace;
     font-size: 14px;
-
+    color: black;
+    list-style-type: none;
 }
 .ls_folders a { 
     color: #FD971F; 
