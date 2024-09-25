@@ -1,86 +1,41 @@
-<!--------------------------------------------------------------------
-||  ./index.html
-||  Copyright (c) 2022- by Otacilio 'Minho' Neto, <otacilio.neto@aalto.fi>
-||  
-||  Index/homepage of the website.
-||  Displays picture, contact information, and short bio.
-\\___________________________________________________________________-->  
-<!doctype html>
-	<head>
-		<meta charset="utf-8">
-		<title>Minho&#39;s Homepage</title>
+<!--------------------------------------------------------------
+|| ./index.html
+\\___________________________________________________________-->  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" type="image/png" href="./static/imgs/favicon.ico"/>
+  <link rel="stylesheet" type="text/css" href="./static/css/style.css"/>
 
-		<link rel="icon" type="image/png" href="/static/res/imgs/icons/favicon.ico"/>
-
-		<link rel="stylesheet" type="text/css" href="/static/css/base.css">
-		<link rel="stylesheet" type="text/css" href="/static/css/index.css">
-        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-		<script src="/static/js/index.js"></script>
-		
-	</head>
-
-	<body>
-        <div id="navbar">
-            <ul id="navbar_menu">
-                <li><a href="/" class=active_page>
-                    <span class="i2_home"></span><span class="menu_entry_text">Home</span>
-                </a></li>
-                <li><a href="/projects" >
-                    <span class="i2_projects"></span><span class="menu_entry_text">Projects</span>
-                </a></li>
-                <li><a href="/papers" >
-                    <span class="i2_papers"></span><span class="menu_entry_text">Papers</span>
-                </a></li>
-                <li><a href="/wip" >
-                    <span class="i2_stuff"></span><span class="menu_entry_text">Stuff</span>
-                </a></li>
-                <li><a href="/notes" >
-                    <span class="i2_notes"></span><span class="menu_entry_text">Notes</span>
-                </a></li>
-            </ul>
-        </div>
-
-		<div id="home_content">
-			
-<!-- Wrapper for homepage content (Pic + Bio) -->
-<div class="home_content_info">
-    <!-- Picture and contact icons -->
-    <div id="picbox">
-        <div id="info_profile">
-            <img src='/static/res/imgs/me.jpeg' id='myprofile'>
-        </div>
-        <div id="info_contact">
-            <div class="info_contact_entry"><a id="i1_home" href="mailto:otacilio.neto@aalto.fi"></a></div>
-            <div class="info_contact_entry"><a id="i1_github" href="https://github.com/TioMinho"></a></div>
-            <div class="info_contact_entry"><a id="i1_twitter" href="https://twitter.com/_tioMinho"></a></div>
-            <div class="info_contact_entry"><a id="i1_regate" href="https://www.researchgate.net/profile/Otacilio_Neto5"></a></div>
-            <div class="info_contact_entry"><a id="i1_aalto" href="https://research.aalto.fi/en/persons/otacilio-bezerra-leite-neto"></a></div>
-        </div>
-    </div>
-
-    <!-- Short bio -->
-    <div id="biobox">
-        <!-- Title of page -->
-        <h1 class="page_title">Hi! I'm Minho.</h1>
-
-        <p>
-            My name is <b>Otacílio B.L. Neto</b>, but people call me "Minho".
-        </p>
-        <p>
-            I am a PhD candidate within the Process Control and Automation group at <a href="https://www.aalto.fi/en/">Aalto University</a> (Finland). I hold a B.Eng. in Computer Engineering and a M.Sc. in Teleinformatics Engineering from the <a href="http://www.ufc.br/">Federal University of Ceará</a> (UFC, Brazil). 
-            My research interests lie on the fields of <a href="https://en.wikipedia.org/wiki/Optimal_control">control theory</a>, <a href="https://en.wikipedia.org/wiki/Game_theory">dynamic game theory</a> and <a href="https://en.wikipedia.org/wiki/Machine_learning">statistical machine learning</a>, with applications to the optimal control and estimation of large-scale (bio)chemical systems. I also have an interest in algorithmic problem solving and graph theory. 
-        </p>
-        <p>
-            I like teaching. I have engaged with several teaching activities and have worked as teaching assistant for university courses ever since an undergraduate. You can find my lecture notes, tutorials, and general yapping in the <a href="notes">Notes</a> page.
-        </p>
-        <p>
-            If you wish to contact me, please send me an email: <a href="mailto:otacilio.neto@aalto.fi">otacilio.neto@aalto.fi</a>.
-        </p>
-    </div>
-</div>
-
-		</div>
-
-		
-	</body>
+  <title>~minho</title>
+</head>
+<body>
+  <ul id="navbar">
+    <li><a class="active_tab" href="./index.html">Home</a></li>
+    <li><a href="./projects.html">Projects</a></li>
+    <li><a href="./papers.html">Papers</a></li>
+    <li><a href="./notes.html">Notes</a></li>
+    <li><a href="./stuff.html">Stuff</a></li>
+  </ul>
+  <!-- CONTENT GOES BELOW -->
+  <div style="display: inline-block; margin: 0 25px 25px 25px; width: 256px; text-align: center">
+    <a href="./static/imgs/me.jpeg"><img style="width: 100%; border-radius: 10px;" src='./static/imgs/me_proxy.jpeg'></a> <br/>
+    [mail: <a href="mailto:otacilio.neto@aalto.fi">otacilio.neto@aalto.fi</a>] <br/>
+    [<a href="https://github.com/TioMinho">github</a>][<a href="https://scholar.google.com/citations?user=lQydCNkAAAAJ">scholar</a>][<a href="https://www.researchgate.net/profile/Otacilio_Neto5">regate</a>]
+  </div>
+  <div style="display: inline-block; width: 72%; vertical-align: top;">
+    <h1 style="margin-top:0; font-weight:300; color:#FD971F;">Hi! I'm Minho :)</h1>
+    <p>
+      My name is <b>Otacílio B. L. Neto</b>, but people call me "Minho".
+    </p>
+    <p>
+      I am a PhD candidate within the Process Control and Automation Group at <a href="https://www.aalto.fi/en/">Aalto University</a> (Finland). I hold a B.Eng. in Computer Engineering and a M.Sc. in Teleinformatics Engineering from the <a href="http://www.ufc.br/">Federal University of Ceará</a> (Brazil). 
+      My research interests lie on the fields of <a href="https://en.wikipedia.org/wiki/Optimal_control">control theory</a>, <a href="https://en.wikipedia.org/wiki/Game_theory">dynamic game theory</a> and <a href="https://en.wikipedia.org/wiki/Machine_learning">statistical machine learning</a>, with applications to the optimal control and estimation of large-scale (bio)chemical systems. I also have an interest in algorithmic problem solving and graph theory. 
+    </p>
+    <p>
+      In this website, you can find information on my <a href="./projects.html">research projects</a> and <a href="./papers.html">papers</a>. I am also trying to compile my studies/software into <a href="./notes.html">lecture notes</a>. Check also these <a href="./stuff">random stuff</a>!
+    </p>
+  </div>
+</body>
 </html>

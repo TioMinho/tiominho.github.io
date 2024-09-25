@@ -1,0 +1,44 @@
+/* --------------------------------------------------------------
+|| ./static/css/style.css
+\\ ____________________________________________________________*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  width: 75%;
+  max-width: 1280px;
+  background-color: black;
+  color: #EEE;
+}
+
+p { text-align: justify; }
+a { text-decoration: none; color: #46B9DF; } 
+a:hover { text-decoration: underline; }
+
+#navbar {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0 0 20px 0;
+  padding: 0;
+  background-color: #EEE;
+}
+
+#navbar li {
+  float: left;
+  border-right: 1px solid #CCC;
+}
+
+#navbar li > a {
+  display: block;
+  text-align: center;
+  padding: 8px 16px;
+  color: #000;
+}
+
+#navbar li a:hover:not(.active_tab) { 
+  background-color: #BBB;
+}
+
+.active_tab {
+  background-color: #000;
+  color: #EEE !important;
+}
