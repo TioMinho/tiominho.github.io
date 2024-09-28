@@ -1,52 +1,26 @@
-<!--------------------------------------------------------------------
-||  ./work_in_progress.html
-||  Copyright (c) 2022- by Otacilio 'Minho' Neto, <otacilio.neto@aalto.fi>
-||  
-||  A 404-type WIP page.
-||  Displays the obra do cao picture.
-\\___________________________________________________________________-->  
-<!doctype html>
-	<head>
-		<meta charset="utf-8">
-		<title>Minho&#39;s Homepage</title>
+<!--------------------------------------------------------------
+|| ./stuff.html
+\\___________________________________________________________-->  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" type="image/png" href="./static/imgs/favicon.ico"/>
+  <link rel="stylesheet" type="text/css" href="./static/css/style.css"/>
 
-		<link rel="icon" type="image/png" href="/static/res/imgs/icons/favicon.ico"/>
-
-		<link rel="stylesheet" type="text/css" href="/static/css/base.css">
-		<link rel="stylesheet" type="text/css" href="/static/css/stuff.css">
-        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-		<script src="/static/js/stuff.js"></script>
-		
-	</head>
-
-	<body>
-        <div id="navbar">
-            <ul id="navbar_menu">
-                <li><a href="/" >
-                    <span class="i2_home"></span><span class="menu_entry_text">Home</span>
-                </a></li>
-                <li><a href="/projects" >
-                    <span class="i2_projects"></span><span class="menu_entry_text">Projects</span>
-                </a></li>
-                <li><a href="/papers" >
-                    <span class="i2_papers"></span><span class="menu_entry_text">Papers</span>
-                </a></li>
-                <li><a href="/wip" class=active_page>
-                    <span class="i2_stuff"></span><span class="menu_entry_text">Stuff</span>
-                </a></li>
-                <li><a href="/notes" >
-                    <span class="i2_notes"></span><span class="menu_entry_text">Notes</span>
-                </a></li>
-            </ul>
-        </div>
-
-		<div id="home_content">
-			
-	<h1 class="page_title" style="text-align:center;">Sorry! Work in Progress...</h1>
-	<center><img width=400px src="/static/res/imgs/obraDoCao.jpg">	</center>
-
-		</div>
-
-		
-	</body>
+  <title>~minho / stuff</title>
+</head>
+<body>
+  <ul id="navbar">
+    <li><a href="./index.html">Home</a></li>
+    <li><a href="./projects.html">Projects</a></li>
+    <li><a href="./papers.html">Papers</a></li>
+    <li><a href="./notes.html">Notes</a></li>
+    <li><a class="active_tab" href="#">Stuff</a></li>
+  </ul>
+  <div style="text-align: center;">
+      <h1>WORK IN PROGRESS</h1>
+      <img src="./static/imgs/obraDoCao.jpg"/>
+  </div>
+</body>
 </html>
