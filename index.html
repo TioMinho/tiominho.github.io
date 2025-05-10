@@ -3,47 +3,99 @@
 \\___________________________________________________________-->  
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <link rel="icon" type="image/png" href="./static/imgs/favicon.ico"/>
-  <link rel="stylesheet" type="text/css" href="./static/css/style.css"/>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" type="image/png" href="./static/imgs/favicon.ico"/>
+        <link rel="stylesheet" type="text/css" href="./static/css/style.css"/>
 
-  <title>~minho</title>
-</head>
-<body>
-  <ul id="navbar">
-    <li><a class="active_tab" href="./index.html">Home</a></li>
-    <li><a href="./projects.html">Projects</a></li>
-    <li><a href="./papers.html">Papers</a></li>
-    <li><a href="./notes.html">Notes</a></li>
-    <li><a href="./stuff.html">Stuff</a></li>
-  </ul>
-  <div style="padding:32px 32px 0 160px;">
-    <a style="margin:0 16px; float:left;" href="./static/imgs/me.jpeg">
-      <img style="width:200px; height:200px; border-radius:10px;" src='./static/imgs/me_proxy.jpeg'>
-    </a>
-    <h1 style="margin:0; font-weight:300; color:#FD971F;">Hi! My name is (not) Minho :)</h1>
-    <p style="display:inline-block; vertical-align:top;">
-      [email: <a href="mailto:otacilio.neto@aalto.fi">otacilio.neto@aalto.fi</a>] 
-      [<a href="https://github.com/TioMinho">github</a>] 
-      [<a href="https://scholar.google.com/citations?user=lQydCNkAAAAJ">scholar</a>] 
-      [<a href="https://www.researchgate.net/profile/Otacilio_Neto5">regate</a>]
-    </p>
-    <p>
-      I am a PhD candidate within the Process Control and Automation Group at 
-      <a href="https://www.aalto.fi/en/">Aalto University</a> (FI). I hold a
-      B.Eng. in Computer Engineering and a M.Sc. in Teleinformatics Engineering 
-      from the <a href="http://www.ufc.br/">Federal University of Ceará</a> (BR).
-      My research focus on the intersection of <a href="https://en.wikipedia.org/wiki/">optimal control</a>
-      and <a href="https://en.wikipedia.org/wiki/Game_theory">dynamic game theory</a>,
-      with applications to online decision-making in (non-cooperative) multi-agent
-      systems. when no one is watching, I also spend time studying signal 
-      processing, algorithms, statistics, and many other stuff envolving maths 
-      and computers.
-    </p>
-    <p>
-      In this website, you can find information on my <a href="./projects.html">research projects</a> and <a href="./papers.html">papers</a>. I am also trying to compile my studies/software into <a href="./notes.html">lecture notes</a>. Check also these <a href="./stuff">random stuff</a>!
-    </p>
-  </div>
-</body>
+        <title>~minho</title>
+    </head>
+    <body>
+        <header>
+            <div id="titlebar">
+                <h1 style="margin: 0; float: left;">~minho</h1>
+            </div>
+        </header>
+        <div id="container">
+            <ul id="nav">
+                <li><a class="nav-item nav-active" href="#">
+                    <svg class="icon"><use href="static/icons/spritesheet.svg#home-dark"/></svg>
+                    <span class="nav-item-text">Home</span>
+                </a></li>
+                <li><a class="nav-item" href="./research.html">
+                    <svg class="icon"><use href="static/icons/spritesheet.svg#scroll"/></svg>
+                    <span class="nav-item-text">Research</span>
+                </a></li>
+                <li><a class="nav-item" href="./teaching.html">
+                    <svg class="icon"><use href="static/icons/spritesheet.svg#teaching"/></svg>
+                    <span class="nav-item-text">Teaching</span>
+                </a></li>
+                <li><a class="nav-item" href="./stuff.html">
+                    <svg class="icon"><use href="static/icons/spritesheet.svg#coffee"/></svg>
+                    <span class="nav-item-text">Stuff</span>
+                </a></li>
+            </ul>
+            <div id="main">
+                <table cellspacing="0" cellpadding="2">
+                    <tr>
+                        <td>
+                            <a href="./static/imgs/me.jpeg"><img style="width:200px; height:200px; border-radius:10px;" src='./static/imgs/me_proxy.jpeg'></a>
+                        </td>
+                        <td>
+                            <table cellspacing="5" cellpadding="5">
+                                <tr><td>
+                                    <h1 style="margin: 0; color: var(--color-accent2);">Otacilio B. L. Neto (aka "Minho")</h1>
+                                    <h3 style="margin: 0; height: 36px; display: flex; align-items: center;">
+                                        <a class="social-item" href="mailto:otacilio.neto@aalto.fi">otacilio.neto (at) aalto.fi</a>
+                                        <span style="padding: 0 6px">/</span>
+                                        <a class="social-item" target="_blank" href="https://github.com/TioMinho"><svg class="icon"><use href="static/icons/spritesheet.svg#ghub"/></svg></a> 
+                                        <a class="social-item" target="_blank" href="https://scholar.google.com/citations?user=lQydCNkAAAAJ"><svg class="icon"><use href="static/icons/spritesheet.svg#gscholar"/></svg></a> 
+                                        <a class="social-item" target="_blank" href="https://www.researchgate.net/profile/Otacilio_Neto5"><svg class="icon"><use href="static/icons/spritesheet.svg#regate"/></svg></a>
+                                        <a class="social-item" target="_blank" href="https://www.last.fm/user/tiominho"><svg class="icon"><use href="static/icons/spritesheet.svg#lastfm"/></svg></a>
+                                        <a class="social-item" target="_blank" href="https://www.linkedin.com/in/tiominho/"><svg class="icon"><use href="static/icons/spritesheet.svg#linkedin"/></svg></a>
+                                    </h3>
+                                    <br>
+                                    Ph.D. Candidate | 
+                                    <a href="https://www.aalto.fi/en/department-of-chemical-and-metallurgical-engineering/process-control-and-automation">Process Control and Automation</a><br>
+                                    <a href="https://www.aalto.fi/en/school-of-chemical-engineering">School of Chemical Engineering</a><br>
+                                    <a href="https://www.aalto.fi/en">Aalto University</a><br>
+                                    <!-- 
+                                    M.Sc. (Teleinformatics Eng.) @ Federal University of Ceará, Brazil, 2021 <br>
+                                    B.Eng. (Computer Engineering) @ Federal University of Ceará, Brazil, 2019 <br> 
+                                    -->
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <p style="padding: 8px 0 0 0 0; border-top: 1px dashed var(--color-accent2)">
+                    <br>
+                    I am a scholar of applied mathematics. <br>
+                    My research focus on the intersection of <b>optimal control</b> and <b>dynamic game theory</b>: 
+                    The goal is to discover equilibrium-seeking algorithms which allow (non-cooperative) 
+                    agents to learn optimal policies for controlling (decentralised/large-scale/stochastic) 
+                    networked systems. Applications include (bio)chemical networks, smart city infrastructure, 
+                    and supply-chains.
+                    <br><br>
+                    When no one is watching, I also spend time studying signal processing, algorithms, 
+                    statistics, and many other stuff involving maths and computers. 
+                    <br><br>
+                    I like 🎸 music, 🕹️ video-games, and 🐕 dogs.
+                </p>
+                <p style="text-align:center;">
+                    >> Click <a target="_blank" href="static/data/cv.pdf">here</a> for a more detailed CV <<<br>
+                    >> Click <a target="_blank" href="static/imgs/cookies.png">here</a> to accept cookies <<
+                </p>
+                <br>
+                <h2 style="margin: 0; color: var(--color-accent4); border-top: 1px dashed var(--color-accent2)">News</h2>
+                <ul id="news">
+                    <li>[10/05/2025] New website!</li>
+                </ul>
+            </div>
+            <div id="submain">
+                <img width="100%" src="static/imgs/koira.png" />
+            </div>
+        </div>
+    </body>
 </html>

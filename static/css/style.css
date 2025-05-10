@@ -1,40 +1,103 @@
 /* --------------------------------------------------------------
 || ./static/css/style.css
 \\ ____________________________________________________________*/
-body {
-  font-family:Arial, Helvetica, sans-serif;
-  margin:0 auto;
-  width:100%;
-  background-color:black;
-  color:#EEE;
+:root {
+    --color-dark2: #19181a;
+    --color-dark1: #221f22;
+    --color-text: #fcfcfa;
+    --color-accent1: #ff6188;
+    --color-accent2: #fc9867;
+    --color-accent3: #ffd866;
+    --color-accent4: #a9dc76;
+    --color-accent5: #78dce8;
+    --color-accent6: #ab9df2;
+    --color-dimmed1: #c1c0c0;
 }
 
-p {text-align:justify;}
+html, body { height: 100%; }
+body {
+    background-color: var(--color-dark2);
+    color: var(--color-text);
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: var(--color-text);
+    color: var(--color-dark2);
+    padding: 0 8px;
+    border-bottom: 2px solid var(--color-dimmed1);
+}
+
+#titlebar {
+    margin: 0 auto;
+    max-width: 1376px;
+    height: 50px;
+}
+
+#container {
+    margin: 0 auto;
+    display: flex; 
+    max-width: 1376px; 
+}
+
+#nav {
+    margin: 0; 
+    padding: 32px 0 0 0;
+    width: 164px; 
+    vertical-align: top; 
+    position: sticky; 
+    list-style-type: none; 
+}
+
+.nav-item {
+    display: flex;
+    color: var(--color-text);
+    margin: 6px auto;
+    border-radius: 8px;
+    padding: 6px 8px; 
+    align-items: center;
+}
+.nav-item-text {
+    padding: 0 6px;
+}
+.nav-item:hover:not(.nav-active) { 
+    background-color: var(--color-dark1); 
+}
+.nav-active {
+    background-color: var(--color-text);
+    color: var(--color-dark1)
+}
+
+#main {
+    width: 1000px; 
+    padding: 24px; 
+}
+
+.social-item {
+    display: flex;
+    vertical-align: middle;
+}
+
+#submain {
+    margin: 0; 
+    padding: 32px 0 0 0;
+    width: 164px; 
+}
+
 a {text-decoration:none; color:#46B9DF;} 
 a:hover {text-decoration: underline;}
 
-#navbar {
-  list-style-type: none;
-  overflow: auto;
-  margin: 0;
-  padding: 0;
-  background-color: #EEE;
-  width: 128px;
-  height: 100%;
-  position: fixed;
+.icon {
+    width: 1.5em;
+    height: 1.5em;
 }
 
-#navbar li > a {
-  display: block;
-  padding: 8px 16px;
-  color: #000;
+#news {
+    padding: 0 6px;
+    list-style: square inside;
 }
 
-#navbar li a:hover:not(.active_tab) { 
-  background-color: #BBB;
-}
-
-.active_tab {
-  background-color: #000;
-  color: #EEE !important;
+#news > a {
+    margin: 0 auto;
 }
