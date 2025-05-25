@@ -93,11 +93,7 @@ a:hover {text-decoration: underline;}
     height: 1.5em;
 }
 
-#news {
+.generic-list {
     padding: 0 6px;
     list-style: square inside;
-}
-
-#news > a {
-    margin: 0 auto;
 }
