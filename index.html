@@ -1,0 +1,29 @@
+---
+title: home
+layout: default
+---
+
+<a target="_blank" href="/assets/img/me.jpeg">
+  <img id="fancy-photo" src='/assets/img/me_proxy.jpeg'>
+</a>
+<h1 id="fancy-name">Otacilio Neto / Minho</h1>
+<h2 id="fancy-email">otacilio.bneto (at) pm.me</h2>
+<p>
+  I am a researcher of applied mathematics, currently working on the intersection of <b>optimization</b>, <b>control</b>, and <b>game theory</b>.
+  The goal is to develop automation solutions to control <span style="color: var(--color-dimmed2);">(decentralized/large-scale/stochastic)</span> networked systems, with applications including smart grids, industrial processes, and robotics.
+  My interests also include signal processing, algorithms, statistics, and many other stuff involving maths and computers. 
+  Outside work, I spent my time listening to noisy music 🎸 , playing retro video-games 🕹️, and petting dogs 🐕.
+  <br><br>
+  I got a PhD (<i>Process Control and Automation</i>) from Aalto University 🇫🇮, and a MSc (<i>Teleinformatics Engineering</i>) and BEng (<i>Computer Engineering</i>) both from Federal University of Ceará 🇧🇷.
+  Check <a target="_blank" href="/assets/data/cv.pdf">my CV</a> for more details.
+  Click <a target="_blank" href="/assets/img/cookies.png">here</a> for cookies.
+</p>
+<br>
+<img width="128px" src="/assets/img/koira.png" />
+<ul id="fancy-socials">
+  {% for social in site.data.socials %}
+  <a target="_blank" href="{{ social[1] }}">
+    <svg class="icon-large"><use href="/assets/icons.svg#{{ social[0] }}" /></svg>
+  </a>
+  {% endfor %}
+</ul>
