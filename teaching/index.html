@@ -1,0 +1,35 @@
+---
+title: Teaching
+layout: default
+---
+
+<h2 class="m-header">Teaching</h2>
+
+<h4 class="m-subheader">(Aalto University)</h4>
+<table>
+  {% for course in site.data.courses %}
+  <tr>
+    {% if course[1].subfolder %}
+      <td><a href={{course[0]}}>{{course[1].title}}</a></td>
+    {% else %}
+      <td>{{course[1].title}}</td>
+    {% endif %}
+    <td class="dimmed-text">{{course[1].notes}}</td>
+  </tr>
+  {% endfor %}
+</table>
+
+<br>
+
+<h2 class="m-header">Supervision</h2>
+<h4 class="m-subheader">(Aalto University)</h4>
+<table>
+  {% for student in site.data.supervision %}
+  <tr>
+    <td>{{student.name}}</td>
+    <td>({{student.level}}, {{student.year}})</td>
+    <td><i><a href={{student.thesis_url}}>"{{student.thesis}}"</a></i></td>
+    <td class="dimmed-text">{{student.notes}}</td>
+  </tr>
+  {% endfor %}
+</table>

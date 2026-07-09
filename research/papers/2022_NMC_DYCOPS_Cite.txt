@@ -1,0 +1,12 @@
+@article{Neto_DYCOPS22,
+    author  = {Otacilio B.L. Neto and Michela Mulas and Francesco Corona},
+    title   = {Online optimal estimation and control for a common class of activated sludge plants},
+    journal = {IFAC-PapersOnLine},
+    volume  = {55},
+    number  = {7},
+    pages   = {447-452},
+    year    = {2022},
+    note    = {13th IFAC Symposium on Dynamics and Control of Process Systems, including Biosystems DYCOPS 2022},
+    issn    = {2405-8963},
+    doi     = {https://doi.org/10.1016/j.ifacol.2022.07.484},
+}

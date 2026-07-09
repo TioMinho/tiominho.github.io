@@ -2,7 +2,7 @@
     {% if include.page == "Home" %}
     <a class="nav-item" href="/">
     {% else %}
-    <a class="nav-item" href="{{ include.page | downcase }}">
+    <a class="nav-item" href="/{{ include.page | downcase }}">
     {% endif %}
         <svg class="icon"><use href="/assets/icons.svg#{{ include.page | downcase }}" /></svg>
         <span class="nav-item-text">{{ include.page }}</span>

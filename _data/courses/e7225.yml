@@ -1,0 +1,93 @@
+title: "[E7225] Advanced Process Control D"
+institute: Aalto University
+period: Winter 2026
+notes: 
+subfolder: true
+program:
+  - id: L01
+    title: Introduction
+    files:
+      - name: "[Notes]"
+        path: E7225_L01_Notes.pdf
+
+  - id: L02
+    title: Dynamic Systems - Models and simulation
+    files:
+      - name: "[Notes]"
+        path: E7225_L02_Notes.pdf
+      - name: "[Homework]"
+        path: E7225_HW01.zip
+
+  - id: L03
+    title: Nonlinear Programming (A)
+    files:
+      - name: "[Notes]"
+        path: E7225_L03_Notes.pdf
+
+  - id: L04
+    title: Nonlinear Programming (B)
+    files:
+      - name: "[Notes]"
+        path: E7225_L04_Notes.pdf
+      - name: "[Homework]"
+        path: E7225_HW02.zip
+
+  - id: L05
+    title: "Model Predictive Control - Introduction (A)"
+    files:
+      - name: "[Notes]"
+        path: E7225_L05_Notes.pdf
+
+
+  - id: L06
+    title: "Model Predictive Control - Introduction (B)"
+    files:
+      - name: "[Notes]"
+        path: E7225_L06_Notes.pdf
+      - name: "[Homework]"
+        path: E7225_HW03.zip
+
+  - id: L07
+    title: "Model Predictive Control - Constraints"
+    files:
+      - name: "[Notes]"
+        path: E7225_L07_Notes.pdf
+      - name: "[Homework]"
+        path: E7225_HW04.zip
+
+  - id: L08
+    title: "Model Predictive Control - Noise/Disturbances"
+    files:
+      - name: "[Notes]"
+        path: E7225_L08_Notes.pdf
+
+
+  - id: L09
+    title: "Model Predictive Control - State estimation"
+    files:
+      - name: "[Notes]"
+        path: E7225_L09_Notes.pdf
+      - name: "[Homework]"
+        path: E7225_HW05.zip
+
+  - id: L10
+    title: "Model Predictive Control - Output feedback"
+    files:
+      - name: "[Notes]"
+        path: E7225_L10_Notes.pdf
+
+
+  - id: L11
+    title: "(Seminar) - Model Predictive Control of Water Resource Recovery Facilities"
+    files:
+      - name: "[Slides]"
+        path: E7225_L11_Slides.pdf
+
+
+  - id: A01
+    title: "Final Assignment"
+    files:
+      - name: ""
+        path: 
+      - name: "[Assignment]"
+        path: E7225_L11_Slides.pdf

@@ -1,0 +1,10 @@
+@ARTICLE{Neto_TAC25,
+    author  = {Neto, Otacilio B. L. and Mulas, Michela and Corona, Francesco},
+    title   = {SLS-BRD: A System-Level Approach to Seeking Generalized Feedback Nash Equilibria}, 
+    journal = {IEEE Transactions on Automatic Control}, 
+    year    = {2025},
+    volume  = {70},
+    number  = {11},
+    pages   = {7173-7188},
+    doi     = {10.1109/TAC.2025.3568560}
+}

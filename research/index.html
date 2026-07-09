@@ -12,9 +12,12 @@ Check my <a href="{{ site.data.socials.gscholar }}">Google Scholar</a> for a mor
 <ul class="paper-list">
   {% for paper in site.data.research.papers %}
   <li>
-    <a class="paper-title" href="{{ paper.url }}">{{ paper.title }}</a></br>
+    <a class="paper-title" href="https://doi.org/{{paper.doi}}">{{ paper.title }}</a></br>
     <span class="paper-author">{{ paper.author }}</span> </br>
-    <span class="paper-publi">{{ paper.year }}   {{ paper.where }}</span> 
+    <span class="paper-publi">{{ paper.year }}   {{ paper.where }}</span>
+    {% for l in paper.links %}
+    <a class="paper-link" href="{{ l.url }}">[{{ l.id }}]</a>
+    {% endfor %}
   </li>
   {% endfor %}
 </ul>
@@ -27,6 +30,9 @@ Check my <a href="{{ site.data.socials.gscholar }}">Google Scholar</a> for a mor
   <li>
     <a class="paper-title" href="{{ paper.url }}">{{ paper.title }}</a></br>
     <span class="paper-publi">{{ paper.year }}   {{ paper.where }}</span>
+    {% for l in paper.links %}
+    <a class="paper-link" href="{{ l.url }}">[{{ l.id }}]</a>
+    {% endfor %}
   </li>
   {% endfor %}
 </ul>

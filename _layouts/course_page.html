@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+{% assign course_data = site.data.courses[page.code] %}
+
+<h1 class="m-header">{{course_data.title}}</h1>
+<p style="float:right; margin: 0; color: var(--color-dimmed2);">
+  {{ course_data.institute | upcase }} ⬥ {{ course_data.period | upcase }}
+</p><br>
+
+{{content}}

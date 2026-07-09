@@ -1,0 +1,11 @@
+@article{Neto_IFAC2020,
+    author  = {Otacilio B. L. Neto and Michela Mulas and Francesco Corona},
+    title   = {On the observability of activated sludge plants},
+    journal = {IFAC-PapersOnLine},
+    volume  = {53},
+    number  = {2},
+    pages   = {16802-16807},
+    year    = {2020},
+    note    = {21st IFAC World Congress},
+    doi     = {https://doi.org/10.1016/j.ifacol.2020.12.1151},
+}

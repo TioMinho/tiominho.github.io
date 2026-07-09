@@ -1,83 +1,179 @@
 papers:
   - title: Local particle flow filters for large-scale dynamic systems
     author: J. A. Magalhães, O. Neto, I. Harjunkoski, F. Corona
-    where: Working Draft
+    where: Under Review
     year: 2026
-    url: "#"
+    doi: "#"
 
+  - title: A system level approach to generalized feedback Nash equilibrium seeking in partially-observed games
+    author: O. Neto, M. Mulas, F. Corona
+    where: IEEE Transactions on Cybernetics (In Press)
+    year: 2026
+    doi: 10.1109/TCYB.2026.3711940
+    links:
+      - id: Abstract
+        url: papers/2026_NMC_CYB_Abstract.txt
+      - id: arXiv
+        url: https://arxiv.org/abs/2503.24159
+      - id: .bib
+        url: papers/2026_NMC_CYB_Cite.txt
+             
   - title: Predictive control of wastewater treatment plants as energy-autonomous water resource recovery facilities
     author: O. Neto, M. Mulas, I. Harjunkoski, F. Corona
     where: Control Engineering Practice, 172
     year: 2026
-    url: https://doi.org/10.1016/j.conengprac.2026.106888
-
-  - title: A system level approach to generalised feedback Nash equilibrium seeking in partially-observed games
-    author: O. Neto, M. Mulas, F. Corona
-    where: arXiv, 2503.24159
-    year: 2025
-    url: https://arxiv.org/abs/2503.24159
-
+    doi: 10.1016/j.conengprac.2026.106888
+    links:
+      - id: Abstract
+        url: papers/2026_NMHC_ConEngPrac_Abstract.txt
+      - id: arXiv
+        url: https://arxiv.org/abs/2506.10490
+      - id: .bib
+        url: papers/2026_NMHC_ConEngPrac_Cite.txt
+      - id: .pdf
+        url: papers/2026_NMHC_ConEngPrac.pdf
+        
   - title: SLS-BRD - A system-level approach to seeking generalised feedback Nash equilibria
     author: O. Neto, M. Mulas, F. Corona
     where: IEEE Transactions on Automatic Control, 70(11)
     year: 2025
-    url: https://doi.org/10.1109/TAC.2025.3568560
+    doi: 10.1109/TAC.2025.3568560
+    links:
+      - id: Abstract
+        url: papers/2025_NMC_TAC_Abstract.txt
+      - id: arXiv
+        url: https://arxiv.org/abs/2404.03809
+      - id: .bib
+        url: papers/2025_NMC_TAC_Cite.txt
+      - id: .pdf
+        url: papers/2025_NMC_TAC.pdf
 
   - title: A model-based framework for controlling activated sludge plants
     author: O. Neto, M. Mulas, F. Corona
     where: Chemical Engineering Journal, 488
     year: 2024
-    url: https://doi.org/10.1016/j.cej.2024.150750
+    doi: 10.1016/j.cej.2024.150750
+    links:
+      - id: Abstract
+        url: papers/2024_NMC_CEJ_Abstract.txt
+      - id: arXiv
+        url: https://arxiv.org/abs/2401.10619
+      - id: .bib
+        url: papers/2024_NMC_CEJ_Cite.txt
+      - id: .pdf
+        url: papers/2024_NMC_CEJ.pdf
 
   - title: Block particle filters for state estimation of stochastic reaction-diffusion systems
     author: J. A. Magalhães, O. Neto, F. Corona
     where: IFAC-PapersOnLine, 56(2) | 22st IFAC World Congress
     year: 2023
-    url: https://doi.org/10.1016/j.ifacol.2023.10.910
+    doi: 10.1016/j.ifacol.2023.10.910
+    links:
+      - id: Abstract
+        url: papers/2023_ANC_IFAC_Abstract.txt
+      - id: arXiv
+        url: https://arxiv.org/abs/2304.05392
+      - id: .bib
+        url: papers/2023_ANC_IFAC_Cite.txt
+      - id: .pdf
+        url: papers/2023_ANC_IFAC.pdf
 
   - title: Online optimal estimation and control for a common class of activated sludge plants
     author: O. Neto, M. Mulas, F. Corona
     where: IFAC-PapersOnLine, 55(7) | 13th DYCOPS
     year: 2022
-    url: https://doi.org/10.1016/j.ifacol.2022.07.484
+    doi: 10.1016/j.ifacol.2022.07.484
+    links:
+      - id: Abstract
+        url: papers/2022_NMC_DYCOPS_Abstract.txt
+      - id: .bib
+        url: papers/2022_NMC_DYCOPS_Cite.txt
+      - id: .pdf
+        url: papers/2022_NMC_DYCOPS.pdf
 
   - title: About the classical and structural controllability and observability of a common class of activated sludge plants
     author: O. Neto, M. Mulas, F. Corona
     where: Journal of Process Control, 111
     year: 2022
-    url: https://doi.org/10.1016/j.jprocont.2021.12.013
+    doi: 10.1016/j.jprocont.2021.12.013
+    links:
+      - id: Abstract
+        url: papers/2022_NMC_JProCont_Abstract.txt
+      - id: .bib
+        url: papers/2022_NMC_JProCont_Cite.txt
+      - id: .pdf
+        url: papers/2022_NMC_JProCont.pdf
 
   - title: Predictive control of activated sludge plants to supply nitrogen for optimal crop growth
     author: O. Neto, A. Haddon, F. Aichouche, J. Harmand, M. Mulas, F. Corona
     where: IFAC-PapersOnLine, 54(3) | 11th ADCHEM
     year: 2021
-    url: https://doi.org/10.1016/j.ifacol.2021.08.242
+    doi: 10.1016/j.ifacol.2021.08.242
+    links:
+      - id: Abstract
+        url: papers/2021_NMC_ADCHEM_Abstract.txt
+      - id: .bib
+        url: papers/2021_NMC_ADCHEM_Cite.txt
+      - id: .pdf
+        url: papers/2021_NMC_ADCHEM.pdf
 
   - title: On the observability of activated sludge plants
     author: O. Neto, M. Mulas, F. Corona
     where: IFAC-PapersOnLine, 53(2) | 21st IFAC World Congress
     year: 2020
-    url: http://doi.org/10.1016/j.ifacol.2020.12.1151
+    doi: 10.1016/j.ifacol.2020.12.1151
+    links:
+      - id: Abstract
+        url: papers/2020_NMC_IFAC_Abstract.txt
+      - id: .bib
+        url: papers/2020_NMC_IFAC_Cite.txt
+      - id: .pdf
+        url: papers/2020_NMC_IFAC.pdf
 
   - title: On the controllability of activated sludge plants
     author: O. Neto, M. Mulas, F. Corona
     where: European Control Conference 2020 | ECC'20
     year: 2020
-    url: http://doi.org/10.23919/ECC51009.2020.9143863
+    doi: 10.23919/ECC51009.2020.9143863
+    links:
+      - id: Abstract
+        url: papers/2020_NMC_ECC_Abstract.txt
+      - id: .bib
+        url: papers/2020_NMC_ECC_Cite.txt
 
 monographs:
   - title: Advances in predictive control and feedback equilibrium-seeking with applications to autonomous water resource recovery
     where: Doctoral thesis, Aalto University
     year: 2025
     url: http://urn.fi/URN:ISBN:978-952-64-2840-6
+    links:
+      - id: Abstract
+        url: thesis/OBLNeto_DSc_Thesis_Abstract.txt
+      - id: .bib
+        url: thesis/OBLNeto_DSc_Thesis_Cite.txt
+      - id: .pdf
+        url: thesis/OBLNeto_DSc_Thesis.pdf
 
   - title: Optimal control and estimation of activated sludge plants
     where: Master thesis, Federal University of Ceará
     year: 2021
-    url: "#"
+    url: https://repositorio.ufc.br/handle/riufc/60348
+    links:
+      - id: Abstract
+        url: thesis/OBLNeto_MSc_Thesis_Abstract.txt
+      - id: .bib
+        url: thesis/OBLNeto_MSc_Thesis_Cite.txt
+      - id: .pdf
+        url: thesis/OBLNeto_MSc_Thesis.pdf
 
   - title: Optimal Control - An application to a non-isothermal continuous reactor
     where: Bachelor thesis, Federal University of Ceará
     year: 2019
-    url: "#"
-
+    url: thesis/OBLNeto_BSc_Thesis.pdf
+    links:
+      - id: Abstract
+        url: thesis/OBLNeto_BSc_Thesis_Abstract.txt
+      - id: .bib
+        url: thesis/OBLNeto_BSc_Thesis_Cite.txt
+      - id: .pdf
+        url: thesis/OBLNeto_BSc_Thesis.pdf

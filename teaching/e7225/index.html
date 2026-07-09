@@ -1,0 +1,59 @@
+---
+code: e7225
+layout: course_page
+---
+
+{% assign course_data = site.data.courses[page.code] %}
+
+<img class="course-thumbnail" src="thumbnail-1.png"/>
+
+<p>
+    This course introduces optimization-based methods to automatically operate process systems. The main goal is to
+    learn how to combine numerical optimization and dynamical systems theory to design digital solutions (i.e., feedback
+    controllers) to control dynamical systems to optimally achieve high-level objectives. The focus is on model-based
+    and receding-horizon control methods, with application domains in chemical and biochemical engineering.
+</p>
+
+<h3>Learning Outcomes</h3>
+<p>
+    Upon completing the course, the student should be able to
+</p>
+<ul class="regular-list">
+    <li><b>Simulate</b> the transient behavior of process systems, using both nonlinear and linear(ized) models</li>
+    <li><b>Understand</b> key concepts and solution methods in nonlinear programming</li>
+    <li><b>Formulate</b> and <b>solve</b> optimal control problems (incl. constrained systems)</li>
+    <li><b>Implement/code</b> optimization-based control algorithms</li>
+</ul>
+<p>
+    The course is graded based on 5 weekly homeworks (40%) and 1 final assignment (60%). There is no final exam.
+</p>
+
+<h3>Program</h3>
+
+<table class="program-table">
+    {% for lec in course_data.program %}
+    <tr class="program-table-row">
+        <td>{{lec.id}}</td>
+        <td>{{lec.title}}</td>
+        {% for f in lec.files %}
+        <td><a href={{f.path}}>{{f.name}}</a></td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+
+<p class="dimmed-text">
+    The homeworks are accompanied by warm-up exercises implemented in Python (required packages: 
+    <a href="requirements.txt" download>[requirements.txt]</a>). 
+</p>
+
+<h3>Further Reading and Cool Links</h3>
+<p>
+    The material is mostly based on the following textbooks:
+</p>
+
+<ul class="regular-list">
+    <li><a href="https://sites.engineering.ucsb.edu/~jbraw/mpc">Model Predictive Control - Theory, Computation, and Design</a> (2024) by Rawlings, Mayne, and Diehl</li>
+    <li><a href="https://www.cambridge.org/highereducation/books/predictive-control-for-linear-and-hybrid-systems/EF618BD7AFAF4D04B2044A0FD03D885A">Predictive Control for Linear and Hybrid Systems</a> (2017) by Borelli, Bemporad, and Morari</li>
+    <li><a href="https://web.stanford.edu/~boyd/cvxbook/">Convex Optimization</a> (2004) by Boyd and Vandenberghe</li>
+</ul>

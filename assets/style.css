@@ -16,6 +16,7 @@
     --color-dimmed3: #414040;
 }
 
+/* GENERAL ELEMENTS */
 html, body { height: 100%; }
 
 body {
@@ -25,17 +26,24 @@ body {
     font-family: sans-serif;
 }
 
-/* GENERAL ELEMENTS */
-.main {
-    max-width: 960px;
-    margin: auto;
-    padding: 32px 0 64px 0;
+h1, h2, h3, h4, h5 {
+    color: var(--color-dimmed2);
+}
+
+table {
+    width: 100%;
 }
 
 a:hover { text-decoration: underline; }
 a {
     text-decoration: none;
     color: var(--color-accent5);
+}
+
+.main {
+    max-width: 960px;
+    margin: auto;
+    padding: 32px 0 64px 0;
 }
 
 .m-header {
@@ -48,7 +56,7 @@ a {
 .m-subheader {
     margin: 5px 0 0 0;
 
-    color: var(--color-dimmed2);
+    color: var(--color-accent2);
 }
 
 .icon {
@@ -62,6 +70,12 @@ a {
     width: 4em;
     height: 4em;
 }
+
+.dimmed-text {
+    font-size: 90%;
+    color: var(--color-dimmed2);
+}
+
 
 /* INDEX PAGE */
 #fancy-photo {
@@ -105,10 +119,36 @@ a {
 
 .paper-title  { font-weight: 500; }
 .paper-publi { white-space: pre; }
+.paper-link { 
+    font-size: 90%;
+    margin-left: 15px;
+}
 
 /* TEACHING PAGE */
 .invisigrid { width: 100%; }
 .invisigrid .notes { color: var(--color-dimmed2); }
+
+.program-table {
+    margin: 15px 0;
+    width: 100%;
+    border: 1px solid var(--color-dimmed2);
+    border-collapse: collapse;
+}
+
+.program-table-row {
+    border: 1px solid var(--color-dimmed2);
+}
+
+.program-table-row > td {
+    padding: 4px;
+}
+
+.course-thumbnail {
+    margin: 5px auto;
+    width: 100%;
+    border: 2px solid var(--color-accent2);
+    border-radius: 15px;
+}
 
 /* HEADER */
 .site-header {
@@ -157,17 +197,13 @@ a {
     left: 0;
     bottom: 0;
 
+    padding: 5px;
     width: 100%;
 
     color: var(--color-dimmed1);
     background-color: var(--color-dark1);
 
     text-align: center;
-}
-
-.site-footer > p {
-    margin: 0;
-    padding: 5px;
     font-size: small;
 }
 

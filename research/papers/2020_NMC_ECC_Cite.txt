@@ -1,0 +1,10 @@
+@INPROCEEDINGS{Neto_ECC2020,
+  author    = {Neto, Otacilio B. L. and Mulas, Michela and Corona, Francesco},
+  title     = {On the controllability of activated sludge plants}, 
+  booktitle = {2020 European Control Conference (ECC)}, 
+  year      = {2020},
+  volume    = {},
+  number    = {},
+  pages     = {581-586},
+  doi       = {10.23919/ECC51009.2020.9143863}
+}

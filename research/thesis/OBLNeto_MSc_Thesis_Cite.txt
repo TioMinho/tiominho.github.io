@@ -1,0 +1,6 @@
+@phdthesis{OBLNeto_MScThesis_2021,
+  author  = "Otacilio B. L. Neto",
+  title   = "Optimal control and estimation of activated sludge plants",
+  school  = "Federal University of Cear\'a",
+  year    = "2021"
+}

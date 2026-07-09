@@ -1,0 +1,10 @@
+@article{Neto_ConEngPrac26,
+    author  = {Otacilio B.L. Neto and Michela Mulas and Iiro Harjunkoski and Francesco Corona},
+    title   = {Predictive control of wastewater treatment plants as energy-autonomous water resource recovery facilities},
+    journal = {Control Engineering Practice},
+    volume  = {172},
+    pages   = {106888},
+    year    = {2026},
+    issn    = {0967-0661},
+    doi     = {10.1016/j.conengprac.2026.106888},
+}

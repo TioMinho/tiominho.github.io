@@ -1,0 +1,11 @@
+@article{Magalhaes_IFAC23,
+    author  = {Jos\'e Augusto F. Magalh\~aes and Otacilio B. L. Neto and Francesco Corona},
+    title   = {Block particle filters for state estimation of stochastic reaction-diffusion systems},
+    journal = {IFAC-PapersOnLine},
+    volume  = {56},
+    number  = {2},
+    pages   = {10270-10275},
+    year    = {2023},
+    note    = {22nd IFAC World Congress},
+    doi     = {https://doi.org/10.1016/j.ifacol.2023.10.910},
+}

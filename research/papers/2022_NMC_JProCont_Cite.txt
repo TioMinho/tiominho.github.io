@@ -1,0 +1,10 @@
+@article{Neto_JPROCONT22,
+    author  = {Otacilio B. L. Neto and Michela Mulas and Francesco Corona},
+    title   = {About the classical and structural controllability and observability of a common class of activated sludge plants},
+    journal = {Journal of Process Control},
+    volume  = {111},
+    pages   = {8-26},
+    year    = {2022},
+    issn    = {0959-1524},
+    doi     = {https://doi.org/10.1016/j.jprocont.2021.12.013},
+}

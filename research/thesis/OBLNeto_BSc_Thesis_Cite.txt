@@ -1,0 +1,6 @@
+@phdthesis{OBLNeto_BScThesis_2019,
+  author  = "Otacilio B. L. Neto",
+  title   = "Optimal Control - An application to a non-isothermal continuous reactor",
+  school  = "Federal University of Cear\'a",
+  year    = "2019"
+}

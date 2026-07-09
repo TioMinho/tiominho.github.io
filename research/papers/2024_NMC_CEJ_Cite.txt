@@ -1,0 +1,10 @@
+@article{Neto_CEJ24,
+    author  = {Otacilio B. L. Neto and Michela Mulas and Francesco Corona},
+    title   = {A model-based framework for controlling activated sludge plants},
+    journal = {Chemical Engineering Journal},
+    volume  = {488},
+    pages   = {150750},
+    year    = {2024},
+    issn    = {1385-8947},
+    doi     = {https://doi.org/10.1016/j.cej.2024.150750},
+}

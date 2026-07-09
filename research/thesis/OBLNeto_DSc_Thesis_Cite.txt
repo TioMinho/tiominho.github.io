@@ -1,0 +1,6 @@
+@phdthesis{OBLNeto_DScThesis_2025,
+  author  = "Otacilio B. L. Neto",
+  title   = "Advances in predictive control and feedback equilibrium-seeking with applications to autonomous water resource recovery",
+  school  = "Aalto University",
+  year    = "2025"
+}

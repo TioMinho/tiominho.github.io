@@ -1,0 +1,11 @@
+@article{Neto_ADCHEM21,
+    author  = {Otacilio B. L. Neto and Antoine Haddon and Farouk Aichouche and Jerome Harmand and Michela Mulas and Francesco Corona},
+    title   = {Predictive control of activated sludge plants to supply nitrogen for optimal crop growth},
+    journal = {IFAC-PapersOnLine},
+    volume  = {54},
+    number  = {3},
+    pages   = {200-205},
+    year    = {2021},
+    note    = {16th IFAC Symposium on Advanced Control of Chemical Processes ADCHEM 2021},
+    doi     = {https://doi.org/10.1016/j.ifacol.2021.08.242},
+}

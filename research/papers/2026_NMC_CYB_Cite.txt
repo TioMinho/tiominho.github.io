@@ -1,0 +1,10 @@
+@ARTICLE{Neto_CYB26,
+    author  = {Neto, Otacilio B. L. and Mulas, Michela and Corona, Francesco},
+    title   = {A system level approach to generalised feedback Nash equilibrium seeking in partially-observed games}, 
+    journal = {IEEE Transactions on Cybernetics (In Press)}, 
+    year    = {2026},
+    volume  = {},
+    number  = {},
+    pages   = {},
+    doi     = {10.1109/TCYB.2026.3711940}
+}
