@@ -1,9 +1,12 @@
 papers:
   - title: Local particle flow filters for large-scale dynamic systems
     author: J. A. Magalhães, O. Neto, I. Harjunkoski, F. Corona
-    where: Under Review
+    where: Under Review (Journal of Process Control)
     year: 2026
     doi: "#"
+    links:
+      - id: Abstract
+        url: papers/2026_ANHC_Abstract.txt
 
   - title: A system level approach to generalized feedback Nash equilibrium seeking in partially-observed games
     author: O. Neto, M. Mulas, F. Corona
@@ -17,6 +20,8 @@ papers:
         url: https://arxiv.org/abs/2503.24159
       - id: .bib
         url: papers/2026_NMC_CYB_Cite.txt
+      - id: .pdf
+        url: papers/2026_NMC_CYB.pdf
              
   - title: Predictive control of wastewater treatment plants as energy-autonomous water resource recovery facilities
     author: O. Neto, M. Mulas, I. Harjunkoski, F. Corona
