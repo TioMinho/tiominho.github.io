@@ -1,5 +1,15 @@
+- name: Davi de Lima Cruz
+  level: B.Sc.
+  where: UFC
+  year: 2026
+  thesis: "Automation and optimisation of drinking water ultrafiltration systems"
+  thesis_url: "#"
+  notes: (co-supervisor)
+  links:
+
 - name: Jesse K. Nyman
   level: M.Sc.
+  where: Aalto
   year: 2025
   thesis: "Dynamic modeling and state estimation in packed bed reactors"
   thesis_url: https://aaltodoc.aalto.fi/items/3755a890-76cf-4e0f-bf95-e5509db07e87
@@ -7,6 +17,7 @@
 
 - name: Sara Bhuiyan
   level: B.Sc.
+  where: Aalto
   year: 2025
   thesis: "System identification with applications to model-based process control"
   thesis_url: https://aaltodoc.aalto.fi/items/9fe97576-de6c-46bc-bb7b-e38076ac18c9

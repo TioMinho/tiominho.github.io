@@ -3,20 +3,22 @@ title: Research
 layout: default
 ---
 
+{% assign myself      = "O. Neto" %}
+{% assign myself_bold = "<b>O. Neto</b>" %}
+
 <h1 class="m-header">Publications</h1>
-
-<p style="float:right; margin: 0; color: var(--color-dimmed2); font-size: small;">
-Check my <a href="{{ site.data.socials.gscholar }}">Google Scholar</a> for a more complete/updated list.
+<p class="right-note">
+  Check my <a href="{{ site.data.socials.gscholar }}">Google Scholar</a> for a more complete/updated list.
 </p>
-
 <ul class="paper-list">
   {% for paper in site.data.research.papers %}
   <li>
-    <a class="paper-title" href="https://doi.org/{{paper.doi}}">{{ paper.title }}</a></br>
-    <span class="paper-author">{{ paper.author }}</span> </br>
-    <span class="paper-publi">{{ paper.year }}   {{ paper.where }}</span>
+    <a class="highlight" href="https://doi.org/{{paper.doi}}">{{ paper.title }}</a><br>
+    <span class="footnotesize">{{ paper.author | replace : myself, myself_bold }}</span><br>
+    <span class="footnotesize">{{ paper.year }}</span> &emsp;
+    <span class="footnotesize">{{ paper.where }}</span> &emsp;
     {% for l in paper.links %}
-    <a class="paper-link" href="{{ l.url }}">[{{ l.id }}]</a>
+    <a class="footnotesize" href="{{ l.url }}">[{{ l.id }}]</a> &emsp;
     {% endfor %}
   </li>
   {% endfor %}
@@ -24,14 +26,14 @@ Check my <a href="{{ site.data.socials.gscholar }}">Google Scholar</a> for a mor
 
 
 <h1 class="m-header">Monographs</h1>
-
 <ul class="paper-list">
   {% for paper in site.data.research.monographs %}
   <li>
-    <a class="paper-title" href="{{ paper.url }}">{{ paper.title }}</a></br>
-    <span class="paper-publi">{{ paper.year }}   {{ paper.where }}</span>
+    <a class="highlight" href="{{ paper.url }}">{{ paper.title }}</a><br>
+    <span class="footnotesize">{{ paper.year }}</span> &emsp;
+    <span class="footnotesize">{{ paper.where }}</span> &emsp;
     {% for l in paper.links %}
-    <a class="paper-link" href="{{ l.url }}">[{{ l.id }}]</a>
+    <a class="footnotesize" href="{{ l.url }}">[{{ l.id }}]</a> &emsp;
     {% endfor %}
   </li>
   {% endfor %}

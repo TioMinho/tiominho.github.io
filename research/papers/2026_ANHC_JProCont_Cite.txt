@@ -1,0 +1,9 @@
+@article{Magalhaes_JProCont2026,
+    author  = {Jos\'e Augusto Fontenele Magalh\~aes and Otacilio B. L. Neto and Iiro Harjunkoski and Francesco Corona},
+    title   = {Local particle flow filters for large-scale dynamic systems},
+    journal = {Journal of Process Control},
+    year    = {2026},
+    volume  = {166},
+    pages   = {103827},
+    doi     = {10.1016/j.jprocont.2026.103827},
+}

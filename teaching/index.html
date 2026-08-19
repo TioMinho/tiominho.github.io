@@ -3,9 +3,7 @@ title: Teaching
 layout: default
 ---
 
-<h2 class="m-header">Teaching</h2>
-
-<h4 class="m-subheader">(Aalto University)</h4>
+<h2 class="m-header">Courses</h2>
 <table>
   {% for course in site.data.courses %}
   <tr>
@@ -14,6 +12,7 @@ layout: default
     {% else %}
       <td>{{course[1].title}}</td>
     {% endif %}
+    <td class="footnotesize">{{course[1].institute}}</td>
     <td class="dimmed-text">{{course[1].notes}}</td>
   </tr>
   {% endfor %}
@@ -22,13 +21,19 @@ layout: default
 <br>
 
 <h2 class="m-header">Supervision</h2>
-<h4 class="m-subheader">(Aalto University)</h4>
+
 <table>
-  {% for student in site.data.supervision %}
+  {% for student in site.data.students %}
   <tr>
-    <td>{{student.name}}</td>
-    <td>({{student.level}}, {{student.year}})</td>
-    <td><i><a href={{student.thesis_url}}>"{{student.thesis}}"</a></i></td>
+    <td class="highlight">{{student.name}}</td>
+    <td class="footnotesize">
+      {% if student.thesis_url != "#" %}
+        <i><a href={{student.thesis_url}}>"{{student.thesis}}"</a></i>
+      {% else %} 
+        <i>"{{student.thesis}}"</i>
+      {% endif %} 
+    </td>
+    <td class="footnotesize">({{student.year}}, {{student.level}}, {{student.where}})</td>
     <td class="dimmed-text">{{student.notes}}</td>
   </tr>
   {% endfor %}

@@ -10,6 +10,7 @@
     --color-accent3: #ffd866;
     --color-accent4: #a9dc76;
     --color-accent5: #78dce8;
+    --color-accent5: #78dce8;
     --color-accent6: #ab9df2;
     --color-dimmed1: #c1c0c0;
     --color-dimmed2: #818080;
@@ -30,19 +31,20 @@ h1, h2, h3, h4, h5 {
     color: var(--color-dimmed2);
 }
 
-table {
-    width: 100%;
-}
-
 a:hover { text-decoration: underline; }
 a {
     text-decoration: none;
     color: var(--color-accent5);
 }
 
+table {
+    width: 100%;
+}
+
+
 .main {
-    max-width: 960px;
     margin: auto;
+    max-width: 960px;
     padding: 32px 0 64px 0;
 }
 
@@ -71,11 +73,29 @@ a {
     height: 4em;
 }
 
+.right-note {
+    margin: 0;
+    float:right;  
+    
+    font-size: small;
+    color: var(--color-dimmed2); 
+}
+
 .dimmed-text {
     font-size: 90%;
+    font-weight: 300;
     color: var(--color-dimmed2);
 }
 
+.highlight {
+    font-weight: 500;
+    color: var(--color-text);
+}
+
+.footnotesize {
+    font-size:90%;
+    font-weight: 300;
+}
 
 /* INDEX PAGE */
 #fancy-photo {
@@ -114,14 +134,7 @@ a {
 .paper-list {
     padding: 0 6px;
     list-style: square inside;
-    font-weight: 350;
-}
-
-.paper-title  { font-weight: 500; }
-.paper-publi { white-space: pre; }
-.paper-link { 
-    font-size: 90%;
-    margin-left: 15px;
+    font-weight: 300;
 }
 
 /* TEACHING PAGE */
